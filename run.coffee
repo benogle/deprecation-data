@@ -107,14 +107,30 @@ getData = ->
   queue.whenDone().then -> packages
 
 buildTable = (packages, options={}) ->
+  whitelist = [
+    'jshint', 'autocomplete-plus'
+  ]
+
   packages = values(packages)
-  packages.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
+  packages.sort (a, b) ->
+    if options.latestAffected
+      buniq = b.versions[b.latestVersion]?.uniqueEvents ? 0
+      auniq = a.versions[a.latestVersion]?.uniqueEvents ? 0
+      if buniq? and auniq?
+        buniq - auniq
+      else
+        0
+    else
+      b.uniqueEvents - a.uniqueEvents
+    # b.uniqueEvents - a.uniqueEvents
 
   lines = [
-    '| Package Name | Owner | Affected Users | Latest | Versions Affected |'
-    '| ------------ | ----- | -------------- | ------ | ----------------- |'
+    '| n | Package | Owner | Total Affected | Affected On Latest | Other Versions |'
+    '| --- |------ | ----- | -------------- | ------------------ | -------------- |'
   ]
-  for pack in packages[0...500]
+  index = 0
+  for pack in packages[0...300]
+    continue if pack.name in whitelist
     versions = values(pack.versions)
     versions.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
 
@@ -130,10 +146,12 @@ buildTable = (packages, options={}) ->
 
     name = pack.name
     name = "[#{pack.name}](#{pack.repository})" if pack.repository?
-    owner = pack.owner ? 'unknown'
-    owner = "[@#{pack.owner}](https://github.com/#{pack.owner})" if pack.owner?
+    owner = if pack.owner? then "@#{pack.owner}" else 'unknown'
+    # owner = "[@#{pack.owner}](https://github.com/#{pack.owner})" if pack.owner?
 
-    lines.push("| #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} | #{versionEffect} |")
+    lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} : #{pack.versions[pack.latestVersion]?.uniqueEvents} | #{versionEffect} |")
+    # lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} | #{versionEffect} |")
+    index += 1
   lines.join('\n')
 
 writeTable = (packages) ->
@@ -142,7 +160,7 @@ writeTable = (packages) ->
 
     The latest version of each of these pacakges is affected.
 
-    Generated: #{new Date()}
+    _Generated: #{new Date()}_
 
     #{buildTable(packages, {latestAffected: true})}
   """
