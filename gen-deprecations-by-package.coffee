@@ -20,7 +20,7 @@ parseDeprecations = (deprecations, packageCache, callback) ->
       bPackageName = b.packageName.toLowerCase()
       if aPackageName > bPackageName
         1
-      if aPackageName < bPackageName
+      else if aPackageName < bPackageName
         -1
       else
         0
@@ -35,7 +35,9 @@ writeDeprecationsByPackage = (fileName, packageCache) ->
     ]
 
     for {packageName, version, deprecationText}, i in deprecationList
-      lines.push("| #{packageName} | #{version} | #{deprecationText} |")
+      packageLink = packageName
+      packageLink = "[#{packageName}](#{packageCache[packageName].repository})" if packageCache[packageName].repository
+      lines.push("| #{packageLink} | #{version} | #{deprecationText} |")
 
     fs.writeFileSync 'output/deprecations-by-package.md', """
       #{lines.join('\n')}
