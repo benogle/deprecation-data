@@ -2,6 +2,8 @@ fs = require 'fs'
 path = require 'path'
 request = require 'request'
 Promise = require 'bluebird'
+csv = require 'csv'
+Queue = require './queue'
 
 baseURL = 'https://atom.io/api'
 
@@ -33,46 +35,14 @@ normalizeRepository = (repository) ->
   owner = repo.match(urlRegex)?[1] ? ''
   {repo, owner}
 
-
-
-MaxRunning = 10
-class Queue
-  constructor: ->
-    @queue = []
-    @running = []
-    @doneResolvers = []
-
-  isDone: ->
-    @running.length is 0 and @queue.length is 0
-
-  push: (callback) ->
-    if @running.length >= MaxRunning
-      @queue.push(callback)
-    else
-      @run(callback)
-
-  runNext: ->
-    if @queue.length
-      @run(@queue.pop())
-    else if @isDone()
-      resolve() for resolve in @doneResolvers
-    return
-
-  run: (callback) ->
-    @running.push(callback)
-    callback().then =>
-      index = @running.indexOf(callback)
-      @running.splice(index, 1) if index > -1
-      @runNext()
-
-  whenDone: ->
-    new Promise (resolve) =>
-      @doneResolvers.push(resolve)
-
 values = (obj) ->
   (val for __, val of obj)
 
-getData = ->
+parseNumber = (numberString) ->
+  numberString = numberString.replace(/,/g, '')
+  parseInt(numberString)
+
+getData = (fileName) ->
   packages = {}
   queue = new Queue()
 
@@ -89,20 +59,21 @@ getData = ->
         packages[packageName].repository = repo
         packages[packageName].latestVersion = latestVersion
 
-  deprecations = fs.readFileSync('deprecations.csv').toString()
-  lines = deprecations.split('\n')
-  for line in lines
-    [packageName, version, totalEvents, uniqueEvents] = line.split(',')
-    continue unless packageName and version
-    totalEvents = parseInt(totalEvents)
-    uniqueEvents = parseInt(uniqueEvents)
-    packages[packageName] ?= {name: packageName}
-    packages[packageName].versions ?= {}
-    packages[packageName].versions[version] = {version, totalEvents, uniqueEvents}
-    packages[packageName].uniqueEvents ?= 0
-    packages[packageName].uniqueEvents += uniqueEvents
-    unless packages[packageName].owner? or packages[packageName].repository?
-      storePackageMetadata(packageName)
+  deprecations = fs.readFileSync(fileName).toString()
+  csv.parse deprecations, (err, lines) ->
+    for line in lines
+      [packageNameAndVersion, __, totalEvents, uniqueEvents] = line
+      continue unless packageNameAndVersion and not isNaN(parseNumber(totalEvents))
+      [packageName, version] = packageNameAndVersion.split('@')
+      totalEvents = parseNumber(totalEvents)
+      uniqueEvents = parseNumber(uniqueEvents)
+      packages[packageName] ?= {name: packageName}
+      packages[packageName].versions ?= {}
+      packages[packageName].versions[version] = {version, totalEvents, uniqueEvents}
+      packages[packageName].uniqueEvents ?= 0
+      packages[packageName].uniqueEvents += uniqueEvents
+      unless packages[packageName].owner? or packages[packageName].repository?
+        storePackageMetadata(packageName)
 
   queue.whenDone().then -> packages
 
@@ -125,21 +96,19 @@ buildTable = (packages, options={}) ->
     # b.uniqueEvents - a.uniqueEvents
 
   lines = [
-    '| n | Package | Owner | Total Affected | Affected On Latest | Other Versions |'
-    '| --- |------ | ----- | -------------- | ------------------ | -------------- |'
+    '| n | Package | Owner | Total Affected | Affected On Latest |'
+    '| --- |------ | ----- | -------------- | ------------------ |'
   ]
   index = 0
+  owners = []
   for pack in packages[0...300]
     continue if pack.name in whitelist
     versions = values(pack.versions)
     versions.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
 
-    versionEffect = []
     latestAffected = false
     for {version, uniqueEvents} in versions
       latestAffected = true if version is pack.latestVersion
-      versionEffect.push("#{version}:#{uniqueEvents}")
-    versionEffect = versionEffect.join(' ; ')
 
     if options.latestAffected?
       continue unless options.latestAffected is latestAffected
@@ -147,12 +116,15 @@ buildTable = (packages, options={}) ->
     name = pack.name
     name = "[#{pack.name}](#{pack.repository})" if pack.repository?
     owner = if pack.owner? then "@#{pack.owner}" else 'unknown'
-    # owner = "[@#{pack.owner}](https://github.com/#{pack.owner})" if pack.owner?
+    owners.push(owner) if owner and owner not in owners
 
-    lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} : #{pack.versions[pack.latestVersion]?.uniqueEvents} | #{versionEffect} |")
-    # lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} | #{versionEffect} |")
+    lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} : #{pack.versions[pack.latestVersion]?.uniqueEvents} |")
     index += 1
-  lines.join('\n')
+  lines = lines.join('\n')
+  lines += """
+
+  #{owners.join(', ')}
+  """
 
 writeTable = (packages) ->
   fs.writeFileSync 'table.md', """
@@ -177,6 +149,6 @@ if fs.existsSync('res.js')
   data = fs.readFileSync('res.js')
   writeTable(JSON.parse(data))
 else
-  getData().then (packages) ->
+  getData(process.argv[2] ? 'deprecations.csv').then (packages) ->
     fs.writeFileSync 'res.js', JSON.stringify(packages, null, '  ')
     writeTable(packages)
