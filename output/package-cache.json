@@ -64,7 +64,7 @@
     "uniqueEvents": 639,
     "owner": "angular-ui",
     "repository": "https://github.com/angular-ui/AngularJS-Atom",
-    "latestVersion": "0.2.0"
+    "latestVersion": "0.3.0"
   },
   "compare-files": {
     "name": "compare-files",
@@ -386,7 +386,7 @@
     "uniqueEvents": 153,
     "owner": "merrihew",
     "repository": "https://github.com/merrihew/atom-jade",
-    "latestVersion": "0.1.0"
+    "latestVersion": "0.3.0"
   },
   "linter-xmllint": {
     "name": "linter-xmllint",
@@ -400,7 +400,7 @@
     "uniqueEvents": 323,
     "owner": "AtomLinter",
     "repository": "https://github.com/AtomLinter/linter-xmllint",
-    "latestVersion": "0.0.5"
+    "latestVersion": "0.0.6"
   },
   "remote-ftp": {
     "name": "remote-ftp",
@@ -447,7 +447,7 @@
     "uniqueEvents": 295,
     "owner": "AtomLinter",
     "repository": "https://github.com/AtomLinter/linter-javac",
-    "latestVersion": "0.1.3"
+    "latestVersion": "0.1.4"
   },
   "linter-clang": {
     "name": "linter-clang",
@@ -759,7 +759,7 @@
     "uniqueEvents": 187,
     "owner": "AtomLinter",
     "repository": "https://github.com/AtomLinter/linter-tslint",
-    "latestVersion": "0.2.1"
+    "latestVersion": "0.2.2"
   },
   "csscomb": {
     "name": "csscomb",
@@ -770,7 +770,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 100
+    "uniqueEvents": 100,
+    "owner": "bruce",
+    "repository": "https://github.com/bruce/atom-csscomb",
+    "latestVersion": "0.1.2"
   },
   "minifier": {
     "name": "minifier",
@@ -1057,7 +1060,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 85
+    "uniqueEvents": 85,
+    "owner": "jesseweed",
+    "repository": "https://github.com/jesseweed/seti-ui",
+    "latestVersion": "0.7.1"
   },
   "linter-lua": {
     "name": "linter-lua",
@@ -1126,9 +1132,9 @@
       }
     },
     "uniqueEvents": 64,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "ThusStyles",
+    "repository": "https://github.com/ThusStyles/meteor-snippets",
+    "latestVersion": "0.2.0"
   },
   "init-script": {
     "name": "init-script",
@@ -1286,7 +1292,10 @@
         "uniqueEvents": 53
       }
     },
-    "uniqueEvents": 106
+    "uniqueEvents": 106,
+    "owner": "cristinasolana",
+    "repository": "https://github.com/cristinasolana/atom-compass-framework",
+    "latestVersion": "0.7.5"
   },
   "minimap-color-highlight": {
     "name": "minimap-color-highlight",
@@ -1793,7 +1802,10 @@
         "uniqueEvents": 5
       }
     },
-    "uniqueEvents": 84
+    "uniqueEvents": 84,
+    "owner": "cliffrowley",
+    "repository": "https://github.com/cliffrowley/atom-open-in-sourcetree",
+    "latestVersion": "0.1.2"
   },
   "task-list": {
     "name": "task-list",
@@ -1846,7 +1858,10 @@
         "uniqueEvents": 5
       }
     },
-    "uniqueEvents": 97
+    "uniqueEvents": 97,
+    "owner": "taggon",
+    "repository": "https://github.com/taggon/livereload",
+    "latestVersion": "0.2.0"
   },
   "swift-playground": {
     "name": "swift-playground",
@@ -2470,7 +2485,7 @@
     "uniqueEvents": 63,
     "owner": "benogle",
     "repository": "https://github.com/benogle/line-jumper",
-    "latestVersion": "0.13.0"
+    "latestVersion": "0.14.0"
   },
   "python-isort": {
     "name": "python-isort",
@@ -2896,7 +2911,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 95
+    "uniqueEvents": 95,
+    "owner": "AtomLinter",
+    "repository": "https://github.com/AtomLinter/linter-jshint",
+    "latestVersion": "0.1.5"
   },
   "linter-pyflakes": {
     "name": "linter-pyflakes",
@@ -2960,9 +2978,9 @@
       }
     },
     "uniqueEvents": 24,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "ehuss",
+    "repository": "https://github.com/ehuss/atom-tab-control",
+    "latestVersion": "0.1.1"
   },
   "erb-helper": {
     "name": "erb-helper",
@@ -3118,7 +3136,10 @@
         "uniqueEvents": 21
       }
     },
-    "uniqueEvents": 65
+    "uniqueEvents": 65,
+    "owner": "k9ordon",
+    "repository": "https://github.com/k9ordon/yosemite-unity-ui",
+    "latestVersion": "0.3.13"
   },
   "base64": {
     "name": "base64",
@@ -3474,7 +3495,10 @@
         "uniqueEvents": 19
       }
     },
-    "uniqueEvents": 19
+    "uniqueEvents": 19,
+    "owner": "nrodrigues",
+    "repository": "https://github.com/nrodrigues/uuidgen",
+    "latestVersion": "1.2.0"
   },
   "atom-prettify": {
     "name": "atom-prettify",
@@ -4532,7 +4556,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 28
+    "uniqueEvents": 28,
+    "owner": "fallenhitokiri",
+    "repository": "https://github.com/fallenhitokiri/autocomplete-plus-jedi",
+    "latestVersion": "0.0.9"
   },
   "bookmarklet": {
     "name": "bookmarklet",
@@ -4641,7 +4668,10 @@
         "uniqueEvents": 4
       }
     },
-    "uniqueEvents": 30
+    "uniqueEvents": 30,
+    "owner": "AtomLinter",
+    "repository": "https://github.com/AtomLinter/linter-lsc",
+    "latestVersion": "1.1.2"
   },
   "mobile-preview": {
     "name": "mobile-preview",
@@ -4700,9 +4730,9 @@
       }
     },
     "uniqueEvents": 13,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "kraih",
+    "repository": "https://github.com/kraih/atom-perltidy",
+    "latestVersion": "2.0.0"
   },
   "rails-navigation": {
     "name": "rails-navigation",
@@ -5136,7 +5166,10 @@
         "uniqueEvents": 11
       }
     },
-    "uniqueEvents": 33
+    "uniqueEvents": 33,
+    "owner": "erkkikeranen",
+    "repository": "https://github.com/erkkikeranen/dec-hex-oct-bin",
+    "latestVersion": "0.1.1"
   },
   "language-autohotkey": {
     "name": "language-autohotkey",
@@ -5293,7 +5326,10 @@
         "uniqueEvents": 3
       }
     },
-    "uniqueEvents": 44
+    "uniqueEvents": 44,
+    "owner": "defunkt",
+    "repository": "https://github.com/defunkt/Zen",
+    "latestVersion": "0.14.0"
   },
   "asciidoc-preview": {
     "name": "asciidoc-preview",
@@ -5435,7 +5471,7 @@
     "uniqueEvents": 25,
     "owner": "lukehoban",
     "repository": "https://github.com/lukehoban/atom-ide-flow",
-    "latestVersion": "0.6.0"
+    "latestVersion": "0.7.0"
   },
   "ios": {
     "name": "ios",
@@ -5461,9 +5497,9 @@
       }
     },
     "uniqueEvents": 10,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "niltonheck",
+    "repository": "https://github.com/niltonheck/language-freemarker",
+    "latestVersion": "0.2.0"
   },
   "language-latex": {
     "name": "language-latex",
@@ -5556,7 +5592,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 11
+    "uniqueEvents": 11,
+    "owner": "emilyemorehouse",
+    "repository": "https://github.com/emilyemorehouse/spacegray-eighties-ui",
+    "latestVersion": "0.8.0"
   },
   "atom-typescript-tools": {
     "name": "atom-typescript-tools",
@@ -6279,7 +6318,7 @@
     "uniqueEvents": 9,
     "owner": "brentd",
     "repository": "https://github.com/brentd/neutron-syntax",
-    "latestVersion": "0.6.2"
+    "latestVersion": "0.7.0"
   },
   "package-list": {
     "name": "package-list",
@@ -6472,7 +6511,10 @@
         "uniqueEvents": 7
       }
     },
-    "uniqueEvents": 21
+    "uniqueEvents": 21,
+    "owner": "cdnjs",
+    "repository": "https://github.com/cdnjs/atom-extension",
+    "latestVersion": "1.4.0"
   },
   "center-line": {
     "name": "center-line",
@@ -6843,9 +6885,9 @@
       }
     },
     "uniqueEvents": 7,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "brentd",
+    "repository": "https://github.com/brentd/neutron-ui",
+    "latestVersion": "0.4.0"
   },
   "npm-autocomplete": {
     "name": "npm-autocomplete",
@@ -7101,7 +7143,10 @@
         "uniqueEvents": 3
       }
     },
-    "uniqueEvents": 35
+    "uniqueEvents": 35,
+    "owner": "miaopeng",
+    "repository": "https://github.com/miaopeng/atom-closure-linter",
+    "latestVersion": "0.2.5"
   },
   "debugger": {
     "name": "debugger",
@@ -7361,7 +7406,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 14
+    "uniqueEvents": 14,
+    "owner": "AtomLinter",
+    "repository": "https://github.com/AtomLinter/linter-js-yaml",
+    "latestVersion": "1.0.1"
   },
   "linter-jscs": {
     "name": "linter-jscs",
@@ -7724,7 +7772,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 83
+    "uniqueEvents": 83,
+    "owner": "tvooo",
+    "repository": "https://github.com/tvooo/scope-inspector",
+    "latestVersion": "1.0.1"
   },
   "soda-light-ui": {
     "name": "soda-light-ui",
@@ -7905,7 +7956,10 @@
         "uniqueEvents": 5
       }
     },
-    "uniqueEvents": 5
+    "uniqueEvents": 5,
+    "owner": "atom",
+    "repository": "https://github.com/atom/autocomplete-snippets",
+    "latestVersion": "1.6.1"
   },
   "close-tags": {
     "name": "close-tags",
@@ -8065,7 +8119,7 @@
     "uniqueEvents": 25,
     "owner": "jpohjolainen",
     "repository": "https://github.com/jpohjolainen/atom-hiera-eyaml",
-    "latestVersion": "0.5.0"
+    "latestVersion": "0.5.1"
   },
   "inc-dec-value": {
     "name": "inc-dec-value",
@@ -8226,7 +8280,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 6
+    "uniqueEvents": 6,
+    "owner": "slim-template",
+    "repository": "https://github.com/slim-template/language-slim",
+    "latestVersion": "0.4.0"
   },
   "lesscompile": {
     "name": "lesscompile",
@@ -8565,9 +8622,9 @@
       }
     },
     "uniqueEvents": 5,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "joshnroy",
+    "repository": "https://github.com/joshnroy/solarized-dark-apparent-ui-successor",
+    "latestVersion": "0.2.0"
   },
   "solarized-light-ui": {
     "name": "solarized-light-ui",
@@ -8634,7 +8691,10 @@
         "uniqueEvents": 3
       }
     },
-    "uniqueEvents": 25
+    "uniqueEvents": 25,
+    "owner": "ibigbug",
+    "repository": "https://github.com/ibigbug/support-gbk",
+    "latestVersion": "1.1.0"
   },
   "text-to-string-for-javascript-converter": {
     "name": "text-to-string-for-javascript-converter",
@@ -8842,7 +8902,10 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 12
+    "uniqueEvents": 12,
+    "owner": "creynders",
+    "repository": "https://github.com/creynders/atom-grunt-configs",
+    "latestVersion": "0.1.0"
   },
   "atom-html-helper": {
     "name": "atom-html-helper",
@@ -9123,9 +9186,9 @@
       }
     },
     "uniqueEvents": 4,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "leny",
+    "repository": "https://github.com/leny/atom-indent-toggle-on-paste",
+    "latestVersion": "0.1.1"
   },
   "ipynb": {
     "name": "ipynb",
@@ -9382,7 +9445,7 @@
     "uniqueEvents": 4,
     "owner": "AtomLinter",
     "repository": "https://github.com/AtomLinter/linter-pep257",
-    "latestVersion": "0.2.0"
+    "latestVersion": "0.2.1"
   },
   "max-tabs": {
     "name": "max-tabs",
@@ -9491,7 +9554,10 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 16
+    "uniqueEvents": 16,
+    "owner": "jerp",
+    "repository": "https://github.com/jerp/mocha",
+    "latestVersion": "0.0.5"
   },
   "neon-cursor": {
     "name": "neon-cursor",
@@ -9503,9 +9569,9 @@
       }
     },
     "uniqueEvents": 4,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "muchweb",
+    "repository": "https://github.com/muchweb/atom-neon-cursor",
+    "latestVersion": "0.2.0"
   },
   "newton-dark-syntax": {
     "name": "newton-dark-syntax",
@@ -9613,9 +9679,9 @@
       }
     },
     "uniqueEvents": 8,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "wolfgang",
+    "repository": "https://github.com/wolfgang/org",
+    "latestVersion": "0.2.5"
   },
   "pane-layout-switcher": {
     "name": "pane-layout-switcher",
@@ -9626,7 +9692,10 @@
         "uniqueEvents": 4
       }
     },
-    "uniqueEvents": 4
+    "uniqueEvents": 4,
+    "owner": "leny",
+    "repository": "https://github.com/leny/atom-pane-layout-switcher",
+    "latestVersion": "0.0.2"
   },
   "plastik-syntax": {
     "name": "plastik-syntax",
@@ -9675,7 +9744,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 12
+    "uniqueEvents": 12,
+    "owner": "danielbrodin",
+    "repository": "https://github.com/danielbrodin/atom-project-manager",
+    "latestVersion": "1.15.7"
   },
   "quickrun": {
     "name": "quickrun",
@@ -9686,7 +9758,10 @@
         "uniqueEvents": 4
       }
     },
-    "uniqueEvents": 4
+    "uniqueEvents": 4,
+    "owner": "Sixeight",
+    "repository": "https://github.com/Sixeight/atom-quickrun",
+    "latestVersion": "0.2.0"
   },
   "redpen": {
     "name": "redpen",
@@ -10607,7 +10682,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 22
+    "uniqueEvents": 22,
+    "owner": "sscotth",
+    "repository": "https://github.com/sscotth/file-icon-supplement",
+    "latestVersion": "0.8.0"
   },
   "file-mode": {
     "name": "file-mode",
@@ -10633,9 +10711,9 @@
       }
     },
     "uniqueEvents": 3,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "jglovier",
+    "repository": "https://github.com/jglovier/fizzy",
+    "latestVersion": "0.9.0"
   },
   "flex-tool-bar": {
     "name": "flex-tool-bar",
@@ -10853,7 +10931,10 @@
         "uniqueEvents": 3
       }
     },
-    "uniqueEvents": 3
+    "uniqueEvents": 3,
+    "owner": "atom-haskell",
+    "repository": "https://github.com/atom-haskell/ide-haskell",
+    "latestVersion": "0.4.2"
   },
   "import": {
     "name": "import",
@@ -11091,7 +11172,10 @@
         "uniqueEvents": 3
       }
     },
-    "uniqueEvents": 3
+    "uniqueEvents": 3,
+    "owner": "MoOx",
+    "repository": "https://github.com/MoOx/atom-monokai-tweaked-syntax",
+    "latestVersion": "0.2.0"
   },
   "next-scribe": {
     "name": "next-scribe",
@@ -12294,7 +12378,10 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 2
+    "uniqueEvents": 2,
+    "owner": "camel-chased",
+    "repository": "https://github.com/camel-chased/editor-background",
+    "latestVersion": "0.13.0"
   },
   "ember-cli-helper": {
     "name": "ember-cli-helper",
@@ -12575,7 +12662,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 5
+    "uniqueEvents": 5,
+    "owner": "harai",
+    "repository": "https://github.com/harai/indent-guide-improved",
+    "latestVersion": "1.2.0"
   },
   "inline-autocomplete": {
     "name": "inline-autocomplete",
@@ -12720,7 +12810,10 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 2
+    "uniqueEvents": 2,
+    "owner": "jacobbednarz",
+    "repository": "https://github.com/jacobbednarz/atom-language-apache",
+    "latestVersion": "1.3.0"
   },
   "language-asp-master": {
     "name": "language-asp-master",
@@ -12742,7 +12835,10 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 2
+    "uniqueEvents": 2,
+    "owner": "Trickierstinky",
+    "repository": "https://github.com/Trickierstinky/language-asp",
+    "latestVersion": "1.0.0"
   },
   "language-cql": {
     "name": "language-cql",
@@ -12847,9 +12943,9 @@
       }
     },
     "uniqueEvents": 31,
-    "owner": "fangel",
-    "repository": "https://github.com/fangel/atom-language-idris",
-    "latestVersion": "0.0.1"
+    "owner": "idris-hackers",
+    "repository": "https://github.com/idris-hackers/atom-language-idris",
+    "latestVersion": "0.1.0"
   },
   "language-literate": {
     "name": "language-literate",
@@ -13015,7 +13111,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 10
+    "uniqueEvents": 10,
+    "owner": "jacogr",
+    "repository": "https://github.com/jacogr/atom-lcov-info",
+    "latestVersion": "0.10.4"
   },
   "line-ending-converter": {
     "name": "line-ending-converter",
@@ -13171,7 +13270,7 @@
     "uniqueEvents": 3,
     "owner": "AtomLinter",
     "repository": "https://github.com/AtomLinter/linter-rust",
-    "latestVersion": "0.0.13"
+    "latestVersion": "0.1.0"
   },
   "live-editor-reload": {
     "name": "live-editor-reload",
@@ -13182,10 +13281,7 @@
         "uniqueEvents": 2
       }
     },
-    "uniqueEvents": 2,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 2
   },
   "livescript-compile": {
     "name": "livescript-compile",
@@ -13521,9 +13617,9 @@
       }
     },
     "uniqueEvents": 2,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "paulwooddesign",
+    "repository": "https://github.com/paulwooddesign/poxy-atom-dark-syntax",
+    "latestVersion": "0.1.0"
   },
   "preview-plus": {
     "name": "preview-plus",
@@ -14294,10 +14390,7 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 4,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 4
   },
   "atom-darcula": {
     "name": "atom-darcula",
@@ -14484,9 +14577,9 @@
       }
     },
     "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "MasseGuillaume",
+    "repository": "https://github.com/MasseGuillaume/atom-live-grammar-reload",
+    "latestVersion": "0.3.0"
   },
   "atom-localization-patch-2": {
     "name": "atom-localization-patch-2",
@@ -15252,10 +15345,7 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 1
   },
   "copy-paste-context": {
     "name": "copy-paste-context",
@@ -15368,7 +15458,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 9
+    "uniqueEvents": 9,
+    "owner": "erkkikeranen",
+    "repository": "https://github.com/erkkikeranen/draw-package",
+    "latestVersion": "0.1.1"
   },
   "DsDevTools": {
     "name": "DsDevTools",
@@ -15467,7 +15560,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1
+    "uniqueEvents": 1,
+    "owner": "dsandstrom",
+    "repository": "https://github.com/dsandstrom/atom-ekini-like-theme",
+    "latestVersion": "0.9.1"
   },
   "elementary-light-ui": {
     "name": "elementary-light-ui",
@@ -15579,9 +15675,9 @@
       }
     },
     "uniqueEvents": 16,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "julozi",
+    "repository": "https://github.com/julozi/atom-flake8",
+    "latestVersion": "0.6.0"
   },
   "footnoter": {
     "name": "footnoter",
@@ -16085,10 +16181,7 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 1
   },
   "language-cypher": {
     "name": "language-cypher",
@@ -16286,7 +16379,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1
+    "uniqueEvents": 1,
+    "owner": "atom",
+    "repository": "https://github.com/atom/language-javascript",
+    "latestVersion": "0.77.0"
   },
   "language-knitr": {
     "name": "language-knitr",
@@ -16298,9 +16394,9 @@
       }
     },
     "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "christophergandrud",
+    "repository": "https://github.com/christophergandrud/language-knitr",
+    "latestVersion": "0.2.0"
   },
   "language-lsl": {
     "name": "language-lsl",
@@ -16344,7 +16440,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 2
+    "uniqueEvents": 2,
+    "owner": "lordjavac",
+    "repository": "https://github.com/lordjavac/atom-language-mason",
+    "latestVersion": "2.0.4"
   },
   "language-moonscript": {
     "name": "language-moonscript",
@@ -16527,9 +16626,9 @@
       }
     },
     "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "nayrangnu",
+    "repository": "https://github.com/nayrangnu/language-sage",
+    "latestVersion": "0.3.0"
   },
   "language-salesforce": {
     "name": "language-salesforce",
@@ -16554,10 +16653,7 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 1
   },
   "language-scheme": {
     "name": "language-scheme",
@@ -16582,7 +16678,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1
+    "uniqueEvents": 1,
+    "owner": "Jakehp",
+    "repository": "https://github.com/Jakehp/language-sml",
+    "latestVersion": "0.3.0"
   },
   "language-soy": {
     "name": "language-soy",
@@ -16677,7 +16776,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 2
+    "uniqueEvents": 2,
+    "owner": "be9",
+    "repository": "https://github.com/be9/atom-ledger",
+    "latestVersion": "0.3.1"
   },
   "leipo-syntax": {
     "name": "leipo-syntax",
@@ -16786,9 +16888,9 @@
       }
     },
     "uniqueEvents": 2,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "AtomLinter",
+    "repository": "https://github.com/AtomLinter/linter-eslint",
+    "latestVersion": "0.5.8"
   },
   "linter-js-standard": {
     "name": "linter-js-standard",
@@ -17642,10 +17744,7 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "uniqueEvents": 1
   },
   "rails-snippets": {
     "name": "rails-snippets",
@@ -17827,9 +17926,9 @@
       }
     },
     "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "oredon",
+    "repository": "https://github.com/oredon/search-platform-dependent-characters",
+    "latestVersion": "0.1.0"
   },
   "select-to-character": {
     "name": "select-to-character",
@@ -17989,9 +18088,9 @@
       }
     },
     "uniqueEvents": 1,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "neiliux",
+    "repository": "https://github.com/neiliux/smorgasbord-ui",
+    "latestVersion": "0.2.0"
   },
   "snake": {
     "name": "snake",
@@ -18059,9 +18158,9 @@
       }
     },
     "uniqueEvents": 15,
-    "owner": null,
-    "repository": null,
-    "latestVersion": null
+    "owner": "sourcegraph",
+    "repository": "https://github.com/sourcegraph/sourcegraph-atom",
+    "latestVersion": "0.2.2"
   },
   "spacegray-tomorrowdark-ui": {
     "name": "spacegray-tomorrowdark-ui",
@@ -18175,7 +18274,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 3
+    "uniqueEvents": 3,
+    "owner": "crucialfelix",
+    "repository": "https://github.com/crucialfelix/atom-supercollider",
+    "latestVersion": "0.4.2"
   },
   "suranyami-light-syntax": {
     "name": "suranyami-light-syntax",
@@ -18238,7 +18340,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 7
+    "uniqueEvents": 7,
+    "owner": "xndcn",
+    "repository": "https://github.com/xndcn/symbols-tree-view",
+    "latestVersion": "0.9.3"
   },
   "tabularize": {
     "name": "tabularize",
@@ -18352,7 +18457,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 1
+    "uniqueEvents": 1,
+    "owner": "skulled",
+    "repository": "https://github.com/skulled/timekeeper",
+    "latestVersion": "0.4.0"
   },
   "tomorrow-night-blue-syntax": {
     "name": "tomorrow-night-blue-syntax",
@@ -18619,7 +18727,10 @@
         "uniqueEvents": 1
       }
     },
-    "uniqueEvents": 5
+    "uniqueEvents": 5,
+    "owner": "wakatime",
+    "repository": "https://github.com/wakatime/atom-wakatime",
+    "latestVersion": "4.0.9"
   },
   "weather-package": {
     "name": "weather-package",

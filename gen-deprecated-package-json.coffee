@@ -8,8 +8,12 @@ packagesWithAlternatives =
   'atom-lint':
     alternative: 'linter'
     message: "`atom-lint` has been replaced by `linter`"
+  'language-typescript':
+    alternative: 'atom-typescript'
+    message: "`language-typescript` has been replaced by `atom-typescript`"
   'autocomplete-plus-async':
     message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
+
 
 generateSemverPattern = (versions) ->
   largestVersion = null
