@@ -4,5 +4,4 @@ module.exports = [
   """The context menu CSON format has changed. Please see https://atom.io/docs/api/latest/ContextMenuManager#context-menu-cson-format for more info."""
   """Use a config schema instead. See the configuration section of https://atom.io/docs/latest/hacking-atom-package-word-count and https://atom.io/docs/api/latest/Config for more details"""
   """Store package settings files in the `settings/` directory instead of `scoped-properties/`"""
-  # """Call ::getActiveTextEditor instead"""
 ]
