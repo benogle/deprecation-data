@@ -4,6 +4,7 @@ request = require 'request'
 Promise = require 'bluebird'
 csv = require 'csv'
 Queue = require './queue'
+{parseNumber} = require './utils'
 
 baseURL = 'https://atom.io/api'
 
@@ -34,10 +35,6 @@ normalizeRepository = (repository) ->
     repo = repository.url
   owner = repo.match(urlRegex)?[1] ? ''
   {repo, owner}
-
-parseNumber = (numberString) ->
-  numberString = numberString.replace(/,/g, '')
-  parseInt(numberString)
 
 getData = (fileName) ->
   packages = {}

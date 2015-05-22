@@ -2,33 +2,7 @@ fs = require 'fs'
 path = require 'path'
 csv = require 'csv'
 semver = require 'semver'
-
-###
-  "linter-php": {
-    "name": "linter-php",
-    "versions": {
-      "0.0.12": {
-        "version": "0.0.12",
-        "totalEvents": 144,
-        "uniqueEvents": 137
-      },
-      "0.0.11": {
-        "version": "0.0.11",
-        "totalEvents": 2,
-        "uniqueEvents": 2
-      },
-      "unknown": {
-        "version": "unknown",
-        "totalEvents": 1,
-        "uniqueEvents": 1
-      }
-    },
-    "uniqueEvents": 1112,
-    "owner": "AtomLinter",
-    "repository": "https://github.com/AtomLinter/linter-php",
-    "latestVersion": "0.0.15"
-  },
-###
+{sanitizeDeprecationText} = require './utils'
 
 packagesWithAlternatives =
   'atom-lint':
