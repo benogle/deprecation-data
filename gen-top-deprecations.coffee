@@ -2,6 +2,7 @@ fs = require 'fs'
 path = require 'path'
 Promise = require 'bluebird'
 csv = require 'csv'
+MinorDeprecations = require './minor-deprecations'
 
 parseNumber = (numberString) ->
   numberString = numberString.replace(/,/g, '')
@@ -12,11 +13,13 @@ sanitizeDeprecationText = (str) ->
   str = str.replace(/with class `[a-z0-9-]+`/gi, 'with class `<ClassName>`')
   str = str.replace(/Autocomplete provider '[^']+'/gi, 'Autocomplete provider `<ProviderName>`')
   str = str.replace(/Are you trying to listen for the '[^']+'/gi, 'Are you trying to listen for the `<some:command-name>`')
+  str.trim()
 
-
-parseDeprecations = (deprecations, packageCache, callback) ->
+parseDeprecations = (deprecations, packageCache, {excludeMinorDeprecations}, callback) ->
   topDeprecations = {}
   deprecationList = []
+  totalPackages = {}
+
   csv.parse deprecations, (err, lines) ->
     for line in lines
       [packageNameAndVersion, deprecationText, totalEvents, uniqueEvents] = line
@@ -26,10 +29,13 @@ parseDeprecations = (deprecations, packageCache, callback) ->
       continue if packageCache[packageName].latestVersion isnt version
 
       deprecationText = sanitizeDeprecationText(deprecationText)
+      continue if excludeMinorDeprecations and MinorDeprecations.indexOf(deprecationText) > -1
+
       topDeprecations[deprecationText] ?= []
       topDeprecations[deprecationText].push
         packageName: packageName
         uniqueEvents: parseNumber(uniqueEvents)
+      totalPackages[packageName] = true
 
     for text, packages of topDeprecations
       packages.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
@@ -38,18 +44,24 @@ parseDeprecations = (deprecations, packageCache, callback) ->
       deprecationList.push({text, packages, totalEvents})
     deprecationList.sort (a, b) -> b.packages.length - a.packages.length
 
+    totalPackageCount = 0
+    for packageName, __ of totalPackages
+      totalPackageCount++
+    deprecationList.unshift({text: 'Total unique packages affected', packages: totalPackageCount, totalEvents: ''})
+
     callback(deprecationList)
 
 writeTopDeprecations = (fileName, packageCache) ->
   deprecations = fs.readFileSync(fileName)
-  parseDeprecations deprecations, packageCache, (deprecationList) ->
+  options = {excludeMinorDeprecations: true}
+  parseDeprecations deprecations, packageCache, options, (deprecationList) ->
     lines = [
       '| n | Deprecation Text | Packages | Users Affected |'
       '| ---- | ------------- | -------- | -------------- |'
     ]
 
     for {text, totalEvents, packages}, i in deprecationList
-      lines.push("| #{i + 1} | #{text} | #{packages.length} | #{totalEvents} |")
+      lines.push("| #{i + 1} | #{text} | #{packages.length ? packages} | #{totalEvents} |")
 
     fs.writeFileSync 'output/top-deprecations.md', """
       #{lines.join('\n')}
