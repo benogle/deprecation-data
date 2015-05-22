@@ -48,7 +48,15 @@ generateSemverPattern = (versions) ->
 generateDeprecatedPackages = (packageCache, callback) ->
   deprecatedPackages = {}
   packageNames = (key for key, __ of packageCache)
-  packageNames.sort()
+  packageNames.sort (a, b) ->
+    aPackageName = a.toLowerCase()
+    bPackageName = b.toLowerCase()
+    if aPackageName > bPackageName
+      1
+    else if aPackageName < bPackageName
+      -1
+    else
+      0
 
   for packageName in packageNames
     if packWithAlt = packagesWithAlternatives[packageName]

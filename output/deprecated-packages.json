@@ -3,126 +3,6 @@
     "hasDeprecations": true,
     "version": "<=0.1.1"
   },
-  "Atom-Hack": {
-    "hasDeprecations": true,
-    "version": "<=3.5.4"
-  },
-  "Atom-Syntax-highlighting-for-Sass": {
-    "hasDeprecations": true,
-    "version": "<=0.5.0"
-  },
-  "Atom-toro-syntax": {
-    "hasDeprecations": true,
-    "version": "<=0.2.3"
-  },
-  "AtomicSkittles": {
-    "hasDeprecations": true,
-    "version": "<=0.7.0"
-  },
-  "Bandicoot": {
-    "hasDeprecations": true,
-    "version": "<=0.0.6"
-  },
-  "Base16-Chalk-Dark": {
-    "hasDeprecations": true,
-    "version": "<=0.1.0"
-  },
-  "Clean": {
-    "hasDeprecations": true,
-    "version": "<=0.10.0"
-  },
-  "Clean2": {
-    "hasDeprecations": true,
-    "version": "<=0.12.3"
-  },
-  "Clouds": {
-    "hasDeprecations": true,
-    "version": "<=1.0.5"
-  },
-  "CodeSchool2": {
-    "hasDeprecations": true,
-    "version": "<=0.0.0"
-  },
-  "ConvertToUtf8Plus": {
-    "hasDeprecations": true,
-    "version": "<=0.2.2"
-  },
-  "Cozy-theme": {
-    "hasDeprecations": true,
-    "version": "<=0.1.0"
-  },
-  "Ensime": {
-    "hasDeprecations": true,
-    "version": "<=0.5.1"
-  },
-  "GreyCloud-theme": {
-    "hasDeprecations": true,
-    "version": "<=1.0.0"
-  },
-  "Hopscotch": {
-    "hasDeprecations": true,
-    "version": "<=1.3.0"
-  },
-  "Hulk": {
-    "hasDeprecations": true,
-    "version": "<=0.0.0"
-  },
-  "Magento-Snippets": {
-    "hasDeprecations": true,
-    "version": "<=1.2.3"
-  },
-  "MavensMate-Atom": {
-    "hasDeprecations": true,
-    "version": "<=0.0.20"
-  },
-  "Modo": {
-    "hasDeprecations": true,
-    "version": "<=0.1.2"
-  },
-  "Ocamltop-HTML": {
-    "hasDeprecations": true,
-    "version": "<=0.6.0"
-  },
-  "Pastel": {
-    "hasDeprecations": true,
-    "version": "<=0.2.1"
-  },
-  "Remote-FTP": {
-    "hasDeprecations": true,
-    "version": "<=0.6.2"
-  },
-  "SFTP-deployment": {
-    "hasDeprecations": true,
-    "version": "<=1.0.0"
-  },
-  "Search": {
-    "hasDeprecations": true,
-    "version": "<=0.4.0"
-  },
-  "Spectacular": {
-    "hasDeprecations": true,
-    "version": "<=1.1.0"
-  },
-  "Sublime-Style-Column-Selection": {
-    "hasDeprecations": true,
-    "version": "<=1.2.3"
-  },
-  "Tern": {
-    "hasDeprecations": true,
-    "version": "<=0.8.0"
-  },
-  "VisualStudio": {
-    "hasDeprecations": true,
-    "version": "<=0.1.3"
-  },
-  "VisualStudio3389": {
-    "hasDeprecations": true,
-    "version": "<=0.2.1"
-  },
-  "Writer": {
-    "hasDeprecations": true,
-    "version": "<=0.1.0"
-  },
   "acf-snippets": {
     "hasDeprecations": true,
     "version": "<=0.6.0"
@@ -334,6 +214,10 @@
   "atom-grunt-configs": {
     "hasDeprecations": true,
     "version": "<=0.1.0"
+  },
+  "Atom-Hack": {
+    "hasDeprecations": true,
+    "version": "<=3.5.4"
   },
   "atom-handlebars": {
     "hasDeprecations": true,
@@ -572,6 +456,10 @@
     "hasDeprecations": true,
     "version": "<=0.0.0"
   },
+  "Atom-Syntax-highlighting-for-Sass": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
   "atom-term2": {
     "hasDeprecations": true,
     "version": "<=0.9.5"
@@ -595,6 +483,10 @@
   "atom-tidy-markdown": {
     "hasDeprecations": true,
     "version": "<=0.2.0"
+  },
+  "Atom-toro-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
   },
   "atom-toro-ui": {
     "hasDeprecations": true,
@@ -643,6 +535,10 @@
   "atomic-rest": {
     "hasDeprecations": true,
     "version": "<=0.2.1"
+  },
+  "AtomicSkittles": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
   },
   "atomtools": {
     "hasDeprecations": true,
@@ -739,6 +635,14 @@
   "background-matrix": {
     "hasDeprecations": true,
     "version": "<=0.0.2"
+  },
+  "Bandicoot": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "Base16-Chalk-Dark": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
   },
   "base16-dark-syntax": {
     "hasDeprecations": true,
@@ -1000,9 +904,17 @@
     "hasDeprecations": true,
     "version": "<=3.0.1"
   },
+  "Clean": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
   "clean-atom-dark-ui": {
     "hasDeprecations": true,
     "version": "<=0.28.0"
+  },
+  "Clean2": {
+    "hasDeprecations": true,
+    "version": "<=0.12.3"
   },
   "clipboard-history": {
     "hasDeprecations": true,
@@ -1020,6 +932,10 @@
     "hasDeprecations": true,
     "version": "<=0.2.5"
   },
+  "Clouds": {
+    "hasDeprecations": true,
+    "version": "<=1.0.5"
+  },
   "code-links": {
     "hasDeprecations": true,
     "version": "<=0.3.11"
@@ -1027,6 +943,10 @@
   "codebug": {
     "hasDeprecations": true,
     "version": "<=0.2.1"
+  },
+  "CodeSchool2": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
   },
   "codeship-status": {
     "hasDeprecations": true,
@@ -1152,6 +1072,10 @@
     "hasDeprecations": true,
     "version": "<=0.1.0"
   },
+  "ConvertToUtf8Plus": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
   "copy-as-rtf": {
     "hasDeprecations": true,
     "version": "<=0.7.0"
@@ -1171,6 +1095,10 @@
   "coverage": {
     "hasDeprecations": true,
     "version": "<=0.5.1"
+  },
+  "Cozy-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
   },
   "crosshairs": {
     "hasDeprecations": true,
@@ -1419,6 +1347,10 @@
   "enhanced-tabs": {
     "hasDeprecations": true,
     "version": "<=1.1.0"
+  },
+  "Ensime": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
   },
   "envygeeks-file-icons": {
     "hasDeprecations": true,
@@ -1784,6 +1716,10 @@
     "hasDeprecations": true,
     "version": "<=0.5.0"
   },
+  "GreyCloud-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
   "grunt-runner": {
     "hasDeprecations": true,
     "version": "<=0.9.1"
@@ -1860,6 +1796,10 @@
     "hasDeprecations": true,
     "version": "<=0.1.0"
   },
+  "Hopscotch": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
   "html-entities": {
     "hasDeprecations": true,
     "version": "<=0.4.0"
@@ -1903,6 +1843,10 @@
   "hudl-kickoff-light-syntax": {
     "hasDeprecations": true,
     "version": "<=1.1.1"
+  },
+  "Hulk": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
   },
   "ice-cold-syntax": {
     "hasDeprecations": true,
@@ -2764,6 +2708,10 @@
     "hasDeprecations": true,
     "version": "<=0.3.0"
   },
+  "Magento-Snippets": {
+    "hasDeprecations": true,
+    "version": "<=1.2.3"
+  },
   "makro": {
     "hasDeprecations": true,
     "version": "<=0.2.0"
@@ -2823,6 +2771,10 @@
   "material-design-syntax": {
     "hasDeprecations": true,
     "version": "<=1.6.0"
+  },
+  "MavensMate-Atom": {
+    "hasDeprecations": true,
+    "version": "<=0.0.20"
   },
   "max-tabs": {
     "hasDeprecations": true,
@@ -2887,6 +2839,10 @@
   "mocha-test-runner": {
     "hasDeprecations": true,
     "version": "<=0.4.1"
+  },
+  "Modo": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
   },
   "monochrome-ui": {
     "hasDeprecations": true,
@@ -3088,6 +3044,10 @@
     "hasDeprecations": true,
     "version": "<=0.1.0"
   },
+  "Ocamltop-HTML": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
   "oceanic": {
     "hasDeprecations": true,
     "version": "<=0.0.0"
@@ -3263,6 +3223,10 @@
   "party-hard-master": {
     "hasDeprecations": true,
     "version": "<=0.3.3"
+  },
+  "Pastel": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
   },
   "pastel-dark-theme": {
     "hasDeprecations": true,
@@ -3548,6 +3512,10 @@
     "hasDeprecations": true,
     "version": "<=1.7.2"
   },
+  "Remote-FTP": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
   "remote-sync": {
     "hasDeprecations": true,
     "version": "<=2.4.1"
@@ -3684,6 +3652,10 @@
     "hasDeprecations": true,
     "version": "<=0.4.2"
   },
+  "Search": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
   "seeing-is-believing": {
     "hasDeprecations": true,
     "version": "<=1.6.0"
@@ -3723,6 +3695,10 @@
   "seti-ui-red": {
     "hasDeprecations": true,
     "version": "<=0.13.0"
+  },
+  "SFTP-deployment": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
   },
   "shades-of-grey-ui": {
     "hasDeprecations": true,
@@ -3868,6 +3844,10 @@
     "hasDeprecations": true,
     "version": "<=0.6.1"
   },
+  "Spectacular": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
   "status-stats": {
     "hasDeprecations": true,
     "version": "<=0.1.0"
@@ -3879,6 +3859,10 @@
   "status-wordcount": {
     "hasDeprecations": true,
     "version": "<=0.1.0"
+  },
+  "Sublime-Style-Column-Selection": {
+    "hasDeprecations": true,
+    "version": "<=1.2.3"
   },
   "sublime-tabs": {
     "hasDeprecations": true,
@@ -3963,6 +3947,10 @@
   "terminal-status": {
     "hasDeprecations": true,
     "version": "<=1.6.7"
+  },
+  "Tern": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
   },
   "ternjs": {
     "hasDeprecations": true,
@@ -4144,6 +4132,14 @@
     "hasDeprecations": true,
     "version": "<=0.1.0"
   },
+  "VisualStudio": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "VisualStudio3389": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
   "vnc": {
     "hasDeprecations": true,
     "version": "<=0.1.3"
@@ -4215,6 +4211,10 @@
   "wrap-lines": {
     "hasDeprecations": true,
     "version": "<=0.2.0"
+  },
+  "Writer": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
   },
   "xcode-low-key-syntax": {
     "hasDeprecations": true,
