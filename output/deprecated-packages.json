@@ -1,0 +1,4259 @@
+{
+  "4-color-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "Atom-Hack": {
+    "hasDeprecations": true,
+    "version": "<=3.5.4"
+  },
+  "Atom-Syntax-highlighting-for-Sass": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "Atom-toro-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "AtomicSkittles": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "Bandicoot": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "Base16-Chalk-Dark": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "Clean": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "Clean2": {
+    "hasDeprecations": true,
+    "version": "<=0.12.3"
+  },
+  "Clouds": {
+    "hasDeprecations": true,
+    "version": "<=1.0.5"
+  },
+  "CodeSchool2": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "ConvertToUtf8Plus": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "Cozy-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "Ensime": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "GreyCloud-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "Hopscotch": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "Hulk": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "Magento-Snippets": {
+    "hasDeprecations": true,
+    "version": "<=1.2.3"
+  },
+  "MavensMate-Atom": {
+    "hasDeprecations": true,
+    "version": "<=0.0.20"
+  },
+  "Modo": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "Ocamltop-HTML": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "Pastel": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "Remote-FTP": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "SFTP-deployment": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "Search": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "Spectacular": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "Sublime-Style-Column-Selection": {
+    "hasDeprecations": true,
+    "version": "<=1.2.3"
+  },
+  "Tern": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "VisualStudio": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "VisualStudio3389": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "Writer": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "acf-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "achievements": {
+    "hasDeprecations": true,
+    "version": "<=0.7.2"
+  },
+  "advanced-new-file": {
+    "hasDeprecations": true,
+    "version": "<=0.4.2"
+  },
+  "adwaita-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.30.0"
+  },
+  "adwaita-ui-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "aethusa": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "alien-blood-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.8.0"
+  },
+  "alignment": {
+    "hasDeprecations": true,
+    "version": "<=1.1.5"
+  },
+  "ambiance": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "angularjs": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "angularjs-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "apathy-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.1.8"
+  },
+  "apex-ui-personalize": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "api-blueprint-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "ascii-art": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "asciidoc-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "asciidoctor-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "ask-stack": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "assign-align": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "asteroids": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "astromac-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-2048": {
+    "hasDeprecations": true,
+    "version": "<=1.2.3"
+  },
+  "atom-alignment": {
+    "hasDeprecations": true,
+    "version": "<=0.12.0"
+  },
+  "atom-angularjs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "atom-auto-indent": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-auto-uglify": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-backbone": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "atom-beautifier": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "atom-beautify": {
+    "hasDeprecations": true,
+    "version": "<=0.27.4"
+  },
+  "atom-bitcoin": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "atom-blue-dawn": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "atom-browser-webview": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "atom-charcode": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-coffee-repl": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-color-highlight": {
+    "hasDeprecations": true,
+    "version": "<=3.0.9"
+  },
+  "atom-compile-coffee": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "atom-compile-less": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "atom-css-class-checker": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "atom-ctags": {
+    "hasDeprecations": true,
+    "version": "<=3.2.0"
+  },
+  "atom-darcula": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-dark-extended-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.23.2"
+  },
+  "atom-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.27.0"
+  },
+  "atom-dart": {
+    "hasDeprecations": true,
+    "version": "<=0.7.1"
+  },
+  "atom-deconsole": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "atom-dlang": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "atom-erb": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-faker": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-files": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "atom-flake8": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-flat-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "atom-gist": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "atom-github-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-grunt-configs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-handlebars": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-html-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "atom-html-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.1.6"
+  },
+  "atom-html5-boilerplate": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-htmlizer": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "atom-ice-cold-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "atom-jaco": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "atom-jade": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-jquery-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "atom-jsfmt": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "atom-jshint": {
+    "hasDeprecations": true,
+    "version": "<=1.5.0"
+  },
+  "atom-jshinter": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "atom-jsx-transform": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-language": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "atom-language-idris": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "atom-language-xquery": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-light-simple-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-light-ui-4k": {
+    "hasDeprecations": true,
+    "version": "<=0.30.1"
+  },
+  "atom-light-ui-slim": {
+    "hasDeprecations": true,
+    "version": "<=0.25.1"
+  },
+  "atom-lint": {
+    "hasAlternative": true,
+    "message": "`atom-lint` has been replaced by `linter`",
+    "alternative": "linter"
+  },
+  "atom-live-grammar-reload": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "atom-mac-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.4.2"
+  },
+  "atom-memolist-grep": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "atom-minifier": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "atom-minify": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "atom-minimap": {
+    "hasDeprecations": true,
+    "version": "<=3.4.9"
+  },
+  "atom-minimap-3.3.16": {
+    "hasDeprecations": true,
+    "version": "<=3.3.16"
+  },
+  "atom-minjs": {
+    "hasDeprecations": true,
+    "version": "<=0.2.12"
+  },
+  "atom-monoindustrial": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-monokai": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "atom-monokai-dark-master": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "atom-monokai-mod": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-open-last-project-master": {
+    "hasDeprecations": true,
+    "version": "<=0.3.4"
+  },
+  "atom-open-project-in-iterm2": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "atom-open-project-in-tower": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "atom-overtype-mode": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "atom-pair": {
+    "hasDeprecations": true,
+    "version": "<=1.1.5"
+  },
+  "atom-pandoc-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "atom-phpcs": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "atom-prettify": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "atom-processing": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-project": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "atom-python-debugger": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "atom-rackup": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "atom-rails": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-randomstring": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "atom-runner": {
+    "hasDeprecations": true,
+    "version": "<=2.3.0"
+  },
+  "atom-semicolons": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "atom-sharp": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-simple-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.26.0"
+  },
+  "atom-snappy": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atom-snappy-light": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "atom-soda-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "atom-solo-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "atom-space-pen-views": {
+    "hasDeprecations": true,
+    "version": "<=2.0.5"
+  },
+  "atom-speech-to-code": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "atom-spotify": {
+    "hasDeprecations": true,
+    "version": "<=1.2.0"
+  },
+  "atom-square-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "atom-swiss-knife": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "atom-term2": {
+    "hasDeprecations": true,
+    "version": "<=0.9.5"
+  },
+  "atom-terminal": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "atom-terminal-panel": {
+    "hasDeprecations": true,
+    "version": "<=4.4.4"
+  },
+  "atom-ternjs": {
+    "hasDeprecations": true,
+    "version": "<=0.6.1"
+  },
+  "atom-textmate": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "atom-tidy-markdown": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-toro-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "atom-turbo-javascript": {
+    "hasDeprecations": true,
+    "version": "<=0.0.8"
+  },
+  "atom-typescript": {
+    "hasDeprecations": true,
+    "version": "<=4.5.0"
+  },
+  "atom-typescript-tools": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "atom-ubuntu-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.37.0"
+  },
+  "atom-ungit": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "atom-yeoman": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "atom-zeal": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "atomatigit": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "atomcasts-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.10.3"
+  },
+  "atomic-emacs": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "atomic-rest": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "atomtools": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "aural-coding": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "auto-detect-indentation": {
+    "hasDeprecations": true,
+    "version": "<=0.4.2"
+  },
+  "auto-encoding-for-ruby": {
+    "hasDeprecations": true,
+    "version": "<=1.0.3"
+  },
+  "auto-indent": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "auto-replace-in-selection": {
+    "hasDeprecations": true,
+    "version": "<=2.1.0"
+  },
+  "auto-update-packages": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "autoclose-html": {
+    "hasDeprecations": true,
+    "version": "<=0.16.0"
+  },
+  "autocomplete-bibtex": {
+    "hasDeprecations": true,
+    "version": "<=0.5.7"
+  },
+  "autocomplete-clang": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "autocomplete-emojis": {
+    "hasDeprecations": true,
+    "version": "<=2.2.2"
+  },
+  "autocomplete-gocode": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "autocomplete-haskell": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "autocomplete-haxe": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "autocomplete-jedi": {
+    "hasDeprecations": true,
+    "version": "<=1.2.0"
+  },
+  "autocomplete-modules": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "autocomplete-paths": {
+    "hasDeprecations": true,
+    "version": "<=1.0.2"
+  },
+  "autocomplete-phpunit": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "autocomplete-plus": {
+    "hasDeprecations": true,
+    "version": "<=2.17.1"
+  },
+  "autocomplete-plus-async": {
+    "hasAlternative": true,
+    "message": "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
+  },
+  "autocomplete-plus-jedi": {
+    "hasDeprecations": true,
+    "version": "<=0.0.9"
+  },
+  "autocomplete-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "backbonejs-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "background-matrix": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "base16-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "base16-dark-syntax-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "base16-default-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.26.0"
+  },
+  "base16-eighties-dark": {
+    "hasDeprecations": true,
+    "version": "<=2.1.1"
+  },
+  "base16-eighties-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "base16-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "base16-mocha-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "base16-ocean-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "base16-ocean-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "base16-pretty-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "base16-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "base16-tomorrow-dark-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.16.0"
+  },
+  "base64": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "beacon-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "behat-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "behave-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "bespin-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "better-handlebars": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "bezier-curve-editor": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "big-cursor": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "black-pearl-i-i": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "black-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "block-comment": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "block-selection-mode": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "block-travel": {
+    "hasDeprecations": true,
+    "version": "<=1.0.2"
+  },
+  "blue-dream-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.35.0"
+  },
+  "blue-lotus-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "blue-lotus-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.2"
+  },
+  "bluebliss-2": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "bonfire-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "bookmarklet": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "bootstrap3-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "borg-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "bork-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "bower-install": {
+    "hasDeprecations": true,
+    "version": "<=0.2.4"
+  },
+  "bracket-matcher": {
+    "hasDeprecations": true,
+    "version": "<=0.62.0"
+  },
+  "branch-status": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "break": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "breeze-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "brent-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.16.0"
+  },
+  "brilliance-white-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "brogrammer-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "brogrammer-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "bronokai": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "browser-plus": {
+    "hasDeprecations": true,
+    "version": "<=0.0.21"
+  },
+  "browser-refresh": {
+    "hasDeprecations": true,
+    "version": "<=0.8.3"
+  },
+  "build-systems": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "build-tools-cpp": {
+    "hasDeprecations": true,
+    "version": "<=1.2.6"
+  },
+  "burn": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "cakephp-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "caniuse": {
+    "hasDeprecations": true,
+    "version": "<=0.5.3"
+  },
+  "cargo-test-runner": {
+    "hasDeprecations": true,
+    "version": "<=0.0.3"
+  },
+  "cd": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "cdnjs": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "center-line": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "center-screen": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "centurion-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "chameleon-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.5"
+  },
+  "change-case": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "char-count": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "character-count": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "character-table": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "circle-ci": {
+    "hasDeprecations": true,
+    "version": "<=0.9.1"
+  },
+  "clang-format": {
+    "hasDeprecations": true,
+    "version": "<=1.13.0"
+  },
+  "class-complete": {
+    "hasDeprecations": true,
+    "version": "<=3.0.1"
+  },
+  "clean-atom-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.28.0"
+  },
+  "clipboard-history": {
+    "hasDeprecations": true,
+    "version": "<=0.6.4"
+  },
+  "close-after-last-tab": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "close-tags": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "closure-linter": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "code-links": {
+    "hasDeprecations": true,
+    "version": "<=0.3.11"
+  },
+  "codebug": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "codeship-status": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "coffee-autocompile": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "coffee-compile": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "coffee-compiler": {
+    "hasDeprecations": true,
+    "version": "<=0.11.0"
+  },
+  "coffee-eval": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "coffee-lint": {
+    "hasDeprecations": true,
+    "version": "<=0.7.3"
+  },
+  "coffee-navigator": {
+    "hasDeprecations": true,
+    "version": "<=0.0.16"
+  },
+  "coffee-refactor": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "coffee-trace": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "coffeedocs": {
+    "hasDeprecations": true,
+    "version": "<=0.8.2"
+  },
+  "coffeescript-build": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "coffeescript-check": {
+    "hasDeprecations": true,
+    "version": "<=0.0.3"
+  },
+  "coffeescript-preview": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "collaborative-edit": {
+    "hasDeprecations": true,
+    "version": "<=0.2.6"
+  },
+  "color": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "color-gutter": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "color-picker": {
+    "hasDeprecations": true,
+    "version": "<=1.7.0"
+  },
+  "color-picker-1.4.4": {
+    "hasDeprecations": true,
+    "version": "<=1.4.4"
+  },
+  "colorpicker": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "column-select": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "command-logger": {
+    "hasDeprecations": true,
+    "version": "<=0.23.0"
+  },
+  "command-toolbar": {
+    "hasDeprecations": true,
+    "version": "<=1.0.8"
+  },
+  "comment": {
+    "hasDeprecations": true,
+    "version": "<=0.2.7"
+  },
+  "comment-block": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "comment-down": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "comment-newline": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "compare-files": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "compass": {
+    "hasDeprecations": true,
+    "version": "<=0.7.5"
+  },
+  "composer": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "contrast-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "convert-to-utf8": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "copy-as-rtf": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "copy-improved": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "copy-paste-context": {
+    "hasDeprecations": true,
+    "version": "<=2.1.0"
+  },
+  "copy-to-hipchat": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "coverage": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "crosshairs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "css-color-highlight": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "css-color-highlighting": {
+    "hasDeprecations": true,
+    "version": "<=0.2.4"
+  },
+  "css-color-underline": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "csscomb": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "cssedit-groups": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "csslint": {
+    "hasDeprecations": true,
+    "version": "<=1.1.3"
+  },
+  "ctags-status": {
+    "hasDeprecations": true,
+    "version": "<=1.2.4"
+  },
+  "ctrl-dir-scroll": {
+    "hasDeprecations": true,
+    "version": "<=0.1.8"
+  },
+  "cucumber-runner": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "cucumber-step": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "cursor-count": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "cursor-history": {
+    "hasDeprecations": true,
+    "version": "<=0.4.6"
+  },
+  "custom-title": {
+    "hasDeprecations": true,
+    "version": "<=0.7.1"
+  },
+  "cut-line": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "d-struct": {
+    "hasDeprecations": true,
+    "version": "<=1.0.4"
+  },
+  "darkmate": {
+    "hasDeprecations": true,
+    "version": "<=1.2.2"
+  },
+  "darkmatter-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.4.2"
+  },
+  "darkula-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "darkula-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "dash": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "data-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.6.1"
+  },
+  "date": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "dcunited08-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.6.3"
+  },
+  "decoration-example": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "deepsea": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "define-jump": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "desert-ex-syntax": {
+    "hasDeprecations": true,
+    "version": "<=2.0.3"
+  },
+  "devdocs": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "dict-en2ja": {
+    "hasDeprecations": true,
+    "version": "<=2.0.1"
+  },
+  "django-templates": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "docblockr": {
+    "hasDeprecations": true,
+    "version": "<=0.7.1"
+  },
+  "documentation-renderer": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "doogie-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "drag-drop-text": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "drupal-info-file": {
+    "hasDeprecations": true,
+    "version": "<=1.5.0"
+  },
+  "dsl-progress": {
+    "hasDeprecations": true,
+    "version": "<=0.25.0"
+  },
+  "duplicate-and-comment": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "duraspace-xml": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "dusk-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "ease-blink": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "easy-motion": {
+    "hasDeprecations": true,
+    "version": "<=1.1.4"
+  },
+  "editor-background": {
+    "hasDeprecations": true,
+    "version": "<=0.13.0"
+  },
+  "editor-grammar-scope": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "editor-stats": {
+    "hasDeprecations": true,
+    "version": "<=0.17.0"
+  },
+  "editorconfig": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "eiffel-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "ekini-like": {
+    "hasDeprecations": true,
+    "version": "<=0.9.1"
+  },
+  "ekini-like-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "electron-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "elementary-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.26.2"
+  },
+  "elixir-cmd": {
+    "hasDeprecations": true,
+    "version": "<=0.2.6"
+  },
+  "emacs-mode": {
+    "hasDeprecations": true,
+    "version": "<=0.0.29"
+  },
+  "ember-cli-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.7.2"
+  },
+  "emerald-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "emmet": {
+    "hasDeprecations": true,
+    "version": "<=2.3.9"
+  },
+  "emmet-atom": {
+    "hasDeprecations": true,
+    "version": "<=2.3.4"
+  },
+  "emp-debugger": {
+    "hasDeprecations": true,
+    "version": "<=0.6.11"
+  },
+  "emp-template-management": {
+    "hasDeprecations": true,
+    "version": "<=0.1.10"
+  },
+  "enhanced-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "enhanced-package-list": {
+    "hasDeprecations": true,
+    "version": "<=1.0.3"
+  },
+  "enhanced-tabs": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "envygeeks-file-icons": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "erb-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "erb-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "erlang-build": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "error-status": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "es-navigation": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "escape-utils": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "esformatter": {
+    "hasDeprecations": true,
+    "version": "<=1.6.0"
+  },
+  "eslint": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "eval": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "eval-selecshun": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "ever-notedown": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "ex-mode": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "execute-as-perl": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "execute-as-ruby": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "expand-selection": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "expand-selection-to-quotes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "explicit-reload": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "extract-method": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "facebook-syntax-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "fake-theme": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "fancy-new-file": {
+    "hasDeprecations": true,
+    "version": "<=0.8.1"
+  },
+  "fantasy-ui": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "feedback": {
+    "hasDeprecations": true,
+    "version": "<=0.38.0"
+  },
+  "file-icon-supplement": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "file-icons": {
+    "hasDeprecations": true,
+    "version": "<=1.5.1"
+  },
+  "file-types": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "filetype-color": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "find-selection": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "firepad": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "fizzy": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "fizzy-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.18.2"
+  },
+  "fizzy-syntax-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "flake8": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "flanderized-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "flat-simple-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "flatland-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "flatty-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "floobits": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "fold-comments": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "fonts": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "format-sql": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "frigg-runner-status": {
+    "hasDeprecations": true,
+    "version": "<=1.0.3"
+  },
+  "fruits": {
+    "hasDeprecations": true,
+    "version": "<=5.0.0"
+  },
+  "fruits-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.7"
+  },
+  "function-name-in-status-bar": {
+    "hasDeprecations": true,
+    "version": "<=0.2.6"
+  },
+  "fuzzy-finder": {
+    "hasDeprecations": true,
+    "version": "<=0.87.0"
+  },
+  "fuzzy-finder-plus": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "gamboge": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "gestalter-svg-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "get-routes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "giebele-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "giebele-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.6.3"
+  },
+  "ginkgo-and-gomega-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "giphy": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "gist-it": {
+    "hasDeprecations": true,
+    "version": "<=0.6.10"
+  },
+  "gistom": {
+    "hasDeprecations": true,
+    "version": "<=0.4.8"
+  },
+  "git-blame": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "git-control": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "git-diff-details": {
+    "hasDeprecations": true,
+    "version": "<=0.18.0"
+  },
+  "git-diff-popup": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "git-difftool": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "git-grep": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "git-log": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "git-merge-conflicts": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "git-plus": {
+    "hasDeprecations": true,
+    "version": "<=4.5.0"
+  },
+  "git-review": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "git-tab-status": {
+    "hasDeprecations": true,
+    "version": "<=1.9.2"
+  },
+  "github-issues": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "github-web": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "gitignore-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "gitter": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "glacier-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.4"
+  },
+  "glacier-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "glist": {
+    "hasDeprecations": true,
+    "version": "<=1.0.11"
+  },
+  "go-format": {
+    "hasDeprecations": true,
+    "version": "<=1.0.7"
+  },
+  "go-oracle": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "go-playground": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "go-plus": {
+    "hasDeprecations": true,
+    "version": "<=3.3.11"
+  },
+  "go-to-view": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "gocode": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "gofmt": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "google-closure": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "gotham-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "goto": {
+    "hasDeprecations": true,
+    "version": "<=1.7.0"
+  },
+  "gradle-ci": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "grammar-selector": {
+    "hasDeprecations": true,
+    "version": "<=0.47.0"
+  },
+  "graphite-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.14.1"
+  },
+  "graphviz-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "green-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "greti-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "grunt-runner": {
+    "hasDeprecations": true,
+    "version": "<=0.9.1"
+  },
+  "gruvbox": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "gruvbox-dark-ryanmt": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "gulp-control": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "gulp-helper": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "hacker-news": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "haskell-ghc-mod": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "hecs-dark-theme-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "hecs-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "helium": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "hello-world": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "hex": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "hiera-eyaml": {
+    "hasDeprecations": true,
+    "version": "<=0.4.7"
+  },
+  "highlight-column": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "highlight-css-color": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "highlight-line": {
+    "hasDeprecations": true,
+    "version": "<=0.10.2"
+  },
+  "highlight-selected": {
+    "hasDeprecations": true,
+    "version": "<=0.9.3"
+  },
+  "hip-light-ui-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "hipster-ipsum": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "html-entities": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "html-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "html-img": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "html-include-resource": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "html-nested-comments": {
+    "hasDeprecations": true,
+    "version": "<=3.0.0"
+  },
+  "html-tab": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "html2haml": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "html2jade": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "htmlhint": {
+    "hasDeprecations": true,
+    "version": "<=1.1.3"
+  },
+  "http-post": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "hudl-kickoff-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "ice-cold-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "icon-font-picker": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "ide-flow": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "ide-haskell": {
+    "hasDeprecations": true,
+    "version": "<=0.4.2"
+  },
+  "idle-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "idledark": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "ignition-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "image-view": {
+    "hasDeprecations": true,
+    "version": "<=0.54.0"
+  },
+  "img-placeholder": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "imperator-day-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "increment-selection": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "incremental-search": {
+    "hasDeprecations": true,
+    "version": "<=4.3.0"
+  },
+  "indent-guide-ext": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "indent-guide-improved": {
+    "hasDeprecations": true,
+    "version": "<=1.2.0"
+  },
+  "indent-helper": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "indent-toggle-on-paste": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "indentation-jumper": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "indico-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "indico-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "inline-autocomplete": {
+    "hasDeprecations": true,
+    "version": "<=1.0.5"
+  },
+  "ionic-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "ionic-framework-snippets": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "ionic-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "iplastic-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "ipynb": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "ir-black-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "irc": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "iris-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "itg-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "itg-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "itg-flat-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "japanese-dictionary": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "japanese-wrap": {
+    "hasDeprecations": true,
+    "version": "<=0.2.7"
+  },
+  "japanese-zen-han-convert": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "jekyll": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "jekyll-new-post": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "jekyll-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "jellybeans-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "jenkins": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "jenkins-dashboard": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "jquery-snippets": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "js-refactor": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "jsdoc": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "jsformat": {
+    "hasDeprecations": true,
+    "version": "<=0.8.1"
+  },
+  "jshint": {
+    "hasDeprecations": true,
+    "version": "<=1.3.7"
+  },
+  "jslint": {
+    "hasDeprecations": true,
+    "version": "<=1.3.3"
+  },
+  "jsonlint": {
+    "hasDeprecations": true,
+    "version": "<=1.1.2"
+  },
+  "jsonpp": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "juicebox-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.0.6"
+  },
+  "keycodes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "kinetic": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "koala": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "kobalt": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "kobalt-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "kuali-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "kuroir": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "lambda-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "lambda-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "language-actionscript3": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "language-ada": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "language-autohotkey": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-cjsx": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "language-coffee-script-angular": {
+    "hasDeprecations": true,
+    "version": "<=2.2.0"
+  },
+  "language-csharp": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-dart": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "language-django": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "language-dockerfile": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-drupal": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "language-emberscript": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-erlang": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "language-freemarker": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "language-gherkin-german": {
+    "hasDeprecations": true,
+    "version": "<=0.5.2"
+  },
+  "language-groovy": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-groovy-cloned-from-java": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "language-haml": {
+    "hasDeprecations": true,
+    "version": "<=0.17.0"
+  },
+  "language-haskell": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "language-haxe": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "language-html-swig": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "language-html5-subtlegradient": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-iced-coffee-script": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-iced-coffeescript": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-idris": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "language-ino": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-javascript-semantic": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-js-specs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-jsoniq": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "language-jsx": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "language-lisp": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "language-livescript": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "language-lua": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "language-matlab": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-mediawiki": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-mel": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-metascript": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "language-newlisp": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-nscripter2": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-objective-j": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-oz": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-protobuf": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "language-python-django-templates": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-qml": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-rapid": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "language-review": {
+    "hasDeprecations": true,
+    "version": "<=0.8.3"
+  },
+  "language-rspec": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-rust": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "language-scala": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "language-scilab": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-sketchplugin": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-soy": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "language-sql-mysql": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "language-tcl": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-tss": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "language-twig": {
+    "hasDeprecations": true,
+    "version": "<=1.6.0"
+  },
+  "language-typescript": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "language-varnish": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "language-vbscript": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "language-velocity": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "language-vhdl": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "laravel-facades": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "laravel-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "last-cursor-position": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "layout-manager": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "lcov-info": {
+    "hasDeprecations": true,
+    "version": "<=0.10.2"
+  },
+  "ledger": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "leipo-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "leipo-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "less-autocompile": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "less-than-slash": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "lesscompile": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "letter-spacing": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "license-plus": {
+    "hasDeprecations": true,
+    "version": "<=1.2.5"
+  },
+  "lieju-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "lifted-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.31.0"
+  },
+  "light-matter-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "line-count": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "line-jumper": {
+    "hasDeprecations": true,
+    "version": "<=0.13.0"
+  },
+  "linter": {
+    "hasDeprecations": true,
+    "version": "<=0.12.6"
+  },
+  "linter-bootlint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.5"
+  },
+  "linter-chktex": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "linter-clang": {
+    "hasDeprecations": true,
+    "version": "<=2.25.1"
+  },
+  "linter-clay-coffeelint": {
+    "hasDeprecations": true,
+    "version": "<=0.3.6"
+  },
+  "linter-clojure": {
+    "hasDeprecations": true,
+    "version": "<=0.0.4"
+  },
+  "linter-coffeelint": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "linter-coffeescript": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "linter-cpplint": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "linter-csslint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.12"
+  },
+  "linter-elixirc": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "linter-erb": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "linter-eslint": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "linter-flake8": {
+    "hasDeprecations": true,
+    "version": "<=1.4.1"
+  },
+  "linter-flexpmd": {
+    "hasDeprecations": true,
+    "version": "<=0.1.9"
+  },
+  "linter-flog": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "linter-flow": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "linter-foodcritic": {
+    "hasDeprecations": true,
+    "version": "<=0.3.7"
+  },
+  "linter-gjslint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.4"
+  },
+  "linter-golint": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "linter-haml": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "linter-hlint": {
+    "hasDeprecations": true,
+    "version": "<=0.3.5"
+  },
+  "linter-htmlhint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.15"
+  },
+  "linter-javac": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "linter-js-standard": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "linter-js-yaml": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "linter-jscs": {
+    "hasDeprecations": true,
+    "version": "<=1.12.0"
+  },
+  "linter-jshint": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "linter-jsl": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "linter-jsonlint": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "linter-jsxhint": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "linter-less": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "linter-lintr": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "linter-lsc": {
+    "hasDeprecations": true,
+    "version": "<=1.1.2"
+  },
+  "linter-lua": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "linter-lua-findglobals": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "linter-luacheck": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "linter-mcs": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "linter-metascript": {
+    "hasDeprecations": true,
+    "version": "<=0.0.3"
+  },
+  "linter-pep257": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "linter-pep8": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "linter-perl": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "linter-php": {
+    "hasDeprecations": true,
+    "version": "<=0.0.12"
+  },
+  "linter-phpcs": {
+    "hasDeprecations": true,
+    "version": "<=0.0.14"
+  },
+  "linter-phplint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.7"
+  },
+  "linter-phpmd": {
+    "hasDeprecations": true,
+    "version": "<=0.0.10"
+  },
+  "linter-puppet": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "linter-puppet-lint": {
+    "hasDeprecations": true,
+    "version": "<=0.2.9"
+  },
+  "linter-puppet-parse": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "linter-pyflakes": {
+    "hasDeprecations": true,
+    "version": "<=0.0.4"
+  },
+  "linter-pylint": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "linter-python-pep8": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "linter-python-pyflakes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "linter-reek": {
+    "hasDeprecations": true,
+    "version": "<=1.1.4"
+  },
+  "linter-rubocop": {
+    "hasDeprecations": true,
+    "version": "<=0.2.7"
+  },
+  "linter-ruby": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "linter-scalac": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "linter-scspell": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "linter-scss-lint": {
+    "hasDeprecations": true,
+    "version": "<=1.0.4"
+  },
+  "linter-shellcheck": {
+    "hasDeprecations": true,
+    "version": "<=0.0.7"
+  },
+  "linter-slim": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "linter-squirrel": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "linter-swiftc": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "linter-tidy": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "linter-tslint": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "linter-write-good": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "linter-xmllint": {
+    "hasDeprecations": true,
+    "version": "<=0.0.5"
+  },
+  "live-archive": {
+    "hasDeprecations": true,
+    "version": "<=0.1.13"
+  },
+  "livereload": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "livescript-compile": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "local-history": {
+    "hasDeprecations": true,
+    "version": "<=3.1.0"
+  },
+  "local-server": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "local-server-express": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "local-settings": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "localization": {
+    "hasDeprecations": true,
+    "version": "<=1.16.1"
+  },
+  "log-console": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "lorem-ipsum": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "lychee-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.0.5"
+  },
+  "mac-os-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "makro": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "man": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "mark-ring": {
+    "hasDeprecations": true,
+    "version": "<=3.0.0"
+  },
+  "markdown-format": {
+    "hasDeprecations": true,
+    "version": "<=2.5.1"
+  },
+  "markdown-helpers": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "markdown-pdf": {
+    "hasDeprecations": true,
+    "version": "<=1.3.6"
+  },
+  "markdown-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.149.0"
+  },
+  "markdown-preview-ghcjs": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "markdown-preview-pandoc": {
+    "hasDeprecations": true,
+    "version": "<=0.0.12"
+  },
+  "markdown-stream": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "markdown-toc": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "markdown-writer": {
+    "hasDeprecations": true,
+    "version": "<=1.3.0"
+  },
+  "marked": {
+    "hasDeprecations": true,
+    "version": "<=0.1.7"
+  },
+  "mate-subword-navigation": {
+    "hasDeprecations": true,
+    "version": "<=3.0.1"
+  },
+  "material-design-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.6.0"
+  },
+  "max-tabs": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "maximize-panes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "mbo": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "merge-conflicts": {
+    "hasDeprecations": true,
+    "version": "<=1.3.1"
+  },
+  "meteor-api": {
+    "hasDeprecations": true,
+    "version": "<=2.12.0"
+  },
+  "meteor-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "metro-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "metro-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "minifier": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "minimap": {
+    "hasDeprecations": true,
+    "version": "<=4.9.0"
+  },
+  "minimap-color-highlight": {
+    "hasDeprecations": true,
+    "version": "<=4.1.3"
+  },
+  "minimap-find-and-replace": {
+    "hasDeprecations": true,
+    "version": "<=3.1.0"
+  },
+  "minimap-git-diff": {
+    "hasDeprecations": true,
+    "version": "<=3.1.0"
+  },
+  "mobile-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "mocha": {
+    "hasDeprecations": true,
+    "version": "<=0.0.5"
+  },
+  "mocha-test-runner": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "monochrome-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "monokai": {
+    "hasDeprecations": true,
+    "version": "<=0.12.0"
+  },
+  "monokai-0.7.0": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "monokai-e": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "monokai-e-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "monokai-light": {
+    "hasDeprecations": true,
+    "version": "<=0.3.6"
+  },
+  "monokai-low-profile-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "monokai-master": {
+    "hasDeprecations": true,
+    "version": "<=0.12.0"
+  },
+  "monokai-seti": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "monokai-syntax-for-one-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "monokai-tweaked-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "monokai-tweaked-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "monokai-ubuntu": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "move-by-paragraph": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "move-panes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "mustang": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "my-package": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "navigate": {
+    "hasDeprecations": true,
+    "version": "<=0.1.6"
+  },
+  "nbsp-detect": {
+    "hasDeprecations": true,
+    "version": "<=0.0.1"
+  },
+  "neon-cursor": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "neon-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.4"
+  },
+  "neutron-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "neutron-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "new-era-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "new-era-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.7.2"
+  },
+  "new-file-plus": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "newton-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "newton-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.0.4"
+  },
+  "next-dark": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "next-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "next-occurrence": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "next-scribe": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "nexus": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "nexus-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "ng-classify-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "night-snilek-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "nil-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "no-caffeine-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "nocturnal": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "node-debugger": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "node-resolver": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "notebook": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "npm-autocomplete": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "npm-docs": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "npm-install": {
+    "hasDeprecations": true,
+    "version": "<=3.0.1"
+  },
+  "nrepl": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "nuance-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "nuance-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.27.0"
+  },
+  "nuclide-click-to-symbol": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "obsidian-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "oceanic": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "oceanic-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "oceans16-atom": {
+    "hasDeprecations": true,
+    "version": "<=16.0.2"
+  },
+  "oceans16-atomui": {
+    "hasDeprecations": true,
+    "version": "<=5.2.0"
+  },
+  "oceans16-syntax": {
+    "hasDeprecations": true,
+    "version": "<=11.0.0"
+  },
+  "oddfellows-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "oddfellows-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "ogg-preview": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "omni-ruler": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "omnisharp-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.5.5"
+  },
+  "open-emacs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "open-git-modified-files": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "open-in": {
+    "hasDeprecations": true,
+    "version": "<=3.1.0"
+  },
+  "open-in-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.1.8"
+  },
+  "open-in-github-app": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "open-in-sourcetree": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "open-last-project": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "open-plus": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "open-project-in-tower": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "open-recent": {
+    "hasDeprecations": true,
+    "version": "<=2.2.2"
+  },
+  "open-terminal-here": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "open-vim": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "orchid": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "org": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "outdoor-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "outlander-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "outlander-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "overflow": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "overrides": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "own-fizzy": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "package-cop": {
+    "hasDeprecations": true,
+    "version": "<=0.2.5"
+  },
+  "package-list": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "package-list-downloader": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "package-manager-commands": {
+    "hasDeprecations": true,
+    "version": "<=2.0.1"
+  },
+  "pandoc": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "pane-layout-switcher": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "panic": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "panic-palette": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "paraiso-dark": {
+    "hasDeprecations": true,
+    "version": "<=1.0.2"
+  },
+  "paraiso-dark-tuned": {
+    "hasDeprecations": true,
+    "version": "<=2.0.4"
+  },
+  "parcel": {
+    "hasDeprecations": true,
+    "version": "<=0.0.3"
+  },
+  "paredit": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "party-hard": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "party-hard-master": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "pastel-dark-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "path": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "path-to-module": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "pdf-view": {
+    "hasDeprecations": true,
+    "version": "<=0.22.0"
+  },
+  "pen-paper-coffee-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.6"
+  },
+  "pep8": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "pepper-autocomplete": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "perltidy": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "permute": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "php-checkstyle": {
+    "hasDeprecations": true,
+    "version": "<=0.15.0"
+  },
+  "php-documentation-online": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "php-getters-setters": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "php-server": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "php-twig": {
+    "hasDeprecations": true,
+    "version": "<=3.0.0"
+  },
+  "phpunit": {
+    "hasDeprecations": true,
+    "version": "<=1.0.9"
+  },
+  "playlist": {
+    "hasDeprecations": true,
+    "version": "<=0.1.7"
+  },
+  "policeman-rubocop": {
+    "hasDeprecations": true,
+    "version": "<=0.0.3"
+  },
+  "polychrome-ui-breezydark": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "polymer-snippets": {
+    "hasDeprecations": true,
+    "version": "<=1.1.2"
+  },
+  "poxy-atom-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "poxy-monokai": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "predawn-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "predawn-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.8"
+  },
+  "prefixr": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "pretty-json": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "preview": {
+    "hasDeprecations": true,
+    "version": "<=0.14.0"
+  },
+  "preview-plus": {
+    "hasDeprecations": true,
+    "version": "<=1.1.41"
+  },
+  "preview-tabs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.6"
+  },
+  "processing-language": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "project-colorize": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "project-manager": {
+    "hasDeprecations": true,
+    "version": "<=1.15.7"
+  },
+  "project-project": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "project-quick-open": {
+    "hasDeprecations": true,
+    "version": "<=0.4.4"
+  },
+  "project-ring": {
+    "hasDeprecations": true,
+    "version": "<=0.19.6"
+  },
+  "project-switcher": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "project-switcher2": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "proton": {
+    "hasDeprecations": true,
+    "version": "<=3.0.0"
+  },
+  "proton-kai": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "proton-light": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "proton-monokai": {
+    "hasDeprecations": true,
+    "version": "<=0.26.0"
+  },
+  "pulsing-cursor": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "python": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "python-coverage": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "python-isort": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "quantum-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "quantum-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "quick-highlight": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "quick-jump": {
+    "hasDeprecations": true,
+    "version": "<=0.0.4"
+  },
+  "quick-move-file": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "quiet-light-atom": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "r-exec": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "raast": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "rails-navigation": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "rails-rspec": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "railscasts-theme": {
+    "hasDeprecations": true,
+    "version": "<=1.4.0"
+  },
+  "rainy-night-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "raml": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "raml-labs": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "react": {
+    "hasDeprecations": true,
+    "version": "<=0.11.8"
+  },
+  "recent-files": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "recent-projects": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "redeye-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "redui-jm-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "refactor": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "regex-railroad-diagram": {
+    "hasDeprecations": true,
+    "version": "<=0.7.4"
+  },
+  "related-files": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "relative-line-numbers": {
+    "hasDeprecations": true,
+    "version": "<=0.1.5"
+  },
+  "relative-numbers": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "remember-session": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "remote-atom": {
+    "hasDeprecations": true,
+    "version": "<=1.2.6"
+  },
+  "remote-edit": {
+    "hasDeprecations": true,
+    "version": "<=1.7.2"
+  },
+  "remote-sync": {
+    "hasDeprecations": true,
+    "version": "<=2.4.1"
+  },
+  "require": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "require-opener": {
+    "hasDeprecations": true,
+    "version": "<=1.2.1"
+  },
+  "resize-panes": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "rest-client": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "restore-windows": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "rhino-python": {
+    "hasDeprecations": true,
+    "version": "<=0.6.1"
+  },
+  "robin-language-php": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "ronomon-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "rsense": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "rspec": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "ruby-block-converter": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "ruby-bundler": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "ruby-quick-test": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "ruby-slim": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "ruby-strftime-reference": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "ruby-string-interpolation": {
+    "hasDeprecations": true,
+    "version": "<=0.1.8"
+  },
+  "ruby-syntax-replacer": {
+    "hasDeprecations": true,
+    "version": "<=0.3.2"
+  },
+  "ruler": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "run-command": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "run-command2": {
+    "hasDeprecations": true,
+    "version": "<=1.8.0-0"
+  },
+  "run-file": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "runcoderun": {
+    "hasDeprecations": true,
+    "version": "<=0.5.1"
+  },
+  "salmon-on-ice-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "sass-autocompile": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "sassbeautify": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "saturn-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "save-commands": {
+    "hasDeprecations": true,
+    "version": "<=0.6.1"
+  },
+  "save-session": {
+    "hasDeprecations": true,
+    "version": "<=0.15.2"
+  },
+  "scala-format": {
+    "hasDeprecations": true,
+    "version": "<=0.1.7"
+  },
+  "scala-worksheet": {
+    "hasDeprecations": true,
+    "version": "<=0.3.4"
+  },
+  "scope-inspector": {
+    "hasDeprecations": true,
+    "version": "<=0.2.1"
+  },
+  "script": {
+    "hasDeprecations": true,
+    "version": "<=2.23.0"
+  },
+  "scrolly": {
+    "hasDeprecations": true,
+    "version": "<=0.4.2"
+  },
+  "seeing-is-believing": {
+    "hasDeprecations": true,
+    "version": "<=1.6.0"
+  },
+  "select-line": {
+    "hasDeprecations": true,
+    "version": "<=0.16.0"
+  },
+  "select-scope": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "selection-count": {
+    "hasDeprecations": true,
+    "version": "<=1.6.3"
+  },
+  "semaphore": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "sepia-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "seti-monokai": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "seti-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.3"
+  },
+  "seti-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.6.3"
+  },
+  "seti-ui-red": {
+    "hasDeprecations": true,
+    "version": "<=0.13.0"
+  },
+  "shades-of-grey-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "shadow": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "shadow-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "shiny-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.33.0"
+  },
+  "sholight": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "show-in-folder": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "skies-a-blue": {
+    "hasDeprecations": true,
+    "version": "<=1.0.3"
+  },
+  "slack-chat": {
+    "hasDeprecations": true,
+    "version": "<=1.0.1"
+  },
+  "slash-closer": {
+    "hasDeprecations": true,
+    "version": "<=0.7.1"
+  },
+  "slickedit-select": {
+    "hasDeprecations": true,
+    "version": "<=1.5.0"
+  },
+  "sloc": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "smarter-delete-line": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "smorgasbord-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "snow-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "soda-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "soda-light-ui-mod": {
+    "hasDeprecations": true,
+    "version": "<=2.0.0"
+  },
+  "solarized-dark-apparent-ui-successor": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "solarized-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "solarized-light-syntax-modified": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "solarized-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "sort-machine": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "space-block-jumper": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "space-tab": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "spacegray-chalk-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.2.0"
+  },
+  "spacegray-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "spacegray-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.9.0"
+  },
+  "spacegray-dracula-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "spacegray-eighties-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "spacegray-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "spacegray-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "spacegray-mocha-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "spacegray-monokai-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "spacegray-tomorrowdark-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "spaceship-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "spark-dfu-util": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "specials-board": {
+    "hasDeprecations": true,
+    "version": "<=0.6.1"
+  },
+  "status-stats": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "status-stats-jbrains": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "status-wordcount": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "sublime-tabs": {
+    "hasDeprecations": true,
+    "version": "<=0.5.6"
+  },
+  "support-gbk": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "suranyami-light-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "swift-playground": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "symbol-gen": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "synced-sidebar": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "syntax-settings": {
+    "hasDeprecations": true,
+    "version": "<=0.7.1"
+  },
+  "tab-control": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "tab-history": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "tab-move-key": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "tab-switcher": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "tabs-to-spaces": {
+    "hasDeprecations": true,
+    "version": "<=0.10.0"
+  },
+  "tag": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "task-list": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "tasks": {
+    "hasDeprecations": true,
+    "version": "<=2.0.1"
+  },
+  "term": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "term2": {
+    "hasDeprecations": true,
+    "version": "<=0.9.5"
+  },
+  "terminal": {
+    "hasDeprecations": true,
+    "version": "<=0.28.0"
+  },
+  "terminal-panel": {
+    "hasDeprecations": true,
+    "version": "<=1.14.1"
+  },
+  "terminal-runner": {
+    "hasDeprecations": true,
+    "version": "<=0.0.2"
+  },
+  "terminal-status": {
+    "hasDeprecations": true,
+    "version": "<=1.6.7"
+  },
+  "ternjs": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "tesla-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "test-jumper": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "testoscope": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "text-pastry": {
+    "hasDeprecations": true,
+    "version": "<=0.4.3"
+  },
+  "ti-build-atom": {
+    "hasDeprecations": true,
+    "version": "<=0.7.0"
+  },
+  "tidal": {
+    "hasDeprecations": true,
+    "version": "<=0.6.6"
+  },
+  "tidy-markdown": {
+    "hasDeprecations": true,
+    "version": "<=0.2.2"
+  },
+  "timekeeper": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "title-case": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "to-base64": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "todo-list": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "toggle-tabs": {
+    "hasDeprecations": true,
+    "version": "<=0.1.8"
+  },
+  "toktok": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "tomorrow-night-blue-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "tomorrow-night-bright-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "tomorrow-night-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.1"
+  },
+  "tomorrow-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "toolbar-main": {
+    "hasDeprecations": true,
+    "version": "<=0.0.6"
+  },
+  "trailing-spaces": {
+    "hasDeprecations": true,
+    "version": "<=0.2.4"
+  },
+  "travis-ci-status": {
+    "hasDeprecations": true,
+    "version": "<=0.14.1"
+  },
+  "tree-view-open-files": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "trendy-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "trendy-light-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.28.1"
+  },
+  "tron-legacy-theme": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "true-color": {
+    "hasDeprecations": true,
+    "version": "<=0.4.1"
+  },
+  "try": {
+    "hasDeprecations": true,
+    "version": "<=0.2.3"
+  },
+  "turbo-javascript": {
+    "hasDeprecations": true,
+    "version": "<=0.0.8"
+  },
+  "twilight-rave": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "twilight-textmate-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.19"
+  },
+  "typescript-atomizer": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "ulysses-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "unity-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.4"
+  },
+  "unity-dark-ui": {
+    "hasDeprecations": true,
+    "version": "<=1.1.0"
+  },
+  "unity-ui": {
+    "hasDeprecations": true,
+    "version": "<=2.0.10"
+  },
+  "update-packages": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "url-encode": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "vertical-align": {
+    "hasDeprecations": true,
+    "version": "<=0.8.0"
+  },
+  "vibrant-ink": {
+    "hasDeprecations": true,
+    "version": "<=0.4.0"
+  },
+  "view-tail-large-files": {
+    "hasDeprecations": true,
+    "version": "<=0.1.14"
+  },
+  "vim-mode": {
+    "hasDeprecations": true,
+    "version": "<=0.48.0"
+  },
+  "vim-surround": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "virtualenv": {
+    "hasDeprecations": true,
+    "version": "<=0.6.2"
+  },
+  "visual-bell": {
+    "hasDeprecations": true,
+    "version": "<=1.0.0"
+  },
+  "visual-studio-dark-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "vnc": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "w3c-validation": {
+    "hasDeprecations": true,
+    "version": "<=0.1.3"
+  },
+  "wakatime": {
+    "hasDeprecations": true,
+    "version": "<=4.0.9"
+  },
+  "weather-package": {
+    "hasDeprecations": true,
+    "version": "<=1.5.3"
+  },
+  "web-browser": {
+    "hasDeprecations": true,
+    "version": "<=1.4.4"
+  },
+  "web-view": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "webbox-color": {
+    "hasDeprecations": true,
+    "version": "<=0.5.6"
+  },
+  "wercker-status": {
+    "hasDeprecations": true,
+    "version": "<=0.3.0"
+  },
+  "wheel-zoom": {
+    "hasDeprecations": true,
+    "version": "<=0.6.0"
+  },
+  "winter-syntax": {
+    "hasDeprecations": true,
+    "version": "<=1.1.1"
+  },
+  "wombat": {
+    "hasDeprecations": true,
+    "version": "<=1.0.4"
+  },
+  "wombat-fixed": {
+    "hasDeprecations": true,
+    "version": "<=3.1.0"
+  },
+  "word-count": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "word-jumper": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "wordcount": {
+    "hasDeprecations": true,
+    "version": "<=2.2.2"
+  },
+  "wp-snippets": {
+    "hasDeprecations": true,
+    "version": "<=0.2.9"
+  },
+  "wrap": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "wrap-lines": {
+    "hasDeprecations": true,
+    "version": "<=0.2.0"
+  },
+  "xcode-low-key-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.3.1"
+  },
+  "xcode-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "xeta-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.5.0"
+  },
+  "yeti-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.1.2"
+  },
+  "yosemite-unity": {
+    "hasDeprecations": true,
+    "version": "<=0.3.13"
+  },
+  "yosemite-unity-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.3.13"
+  },
+  "yospos-ui": {
+    "hasDeprecations": true,
+    "version": "<=0.1.0"
+  },
+  "yusuke-syntax": {
+    "hasDeprecations": true,
+    "version": "<=0.0.0"
+  },
+  "zenburn": {
+    "hasDeprecations": true,
+    "version": "<=2.0.2"
+  },
+  "zentabs": {
+    "hasDeprecations": true,
+    "version": "<=0.8.2"
+  }
+}
