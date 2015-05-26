@@ -18,8 +18,13 @@ packagesWithAlternatives =
   'language-typescript':
     alternative: 'atom-typescript'
     message: "`language-typescript` has been replaced by `atom-typescript`"
+  'atom-angularjs'
+    alternative: 'angularjs'
+    message: "`nbsp-detect` has been replaced by functionality in core"
   'autocomplete-plus-async':
     message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
+  'nbsp-detect':
+    message: "`nbsp-detect` has been replaced by functionality in core"
 
 
 generateSemverPattern = (versions) ->
