@@ -18,7 +18,7 @@ packagesWithAlternatives =
   'language-typescript':
     alternative: 'atom-typescript'
     message: "`language-typescript` has been replaced by `atom-typescript`"
-  'atom-angularjs'
+  'atom-angularjs':
     alternative: 'angularjs'
     message: "`nbsp-detect` has been replaced by functionality in core"
   'autocomplete-plus-async':
