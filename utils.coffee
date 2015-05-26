@@ -13,7 +13,7 @@ sanitizeDeprecationText = (str) ->
 
 getDeprecationsByPackage = (deprecations, packageCache, callback) ->
   csv.parse deprecations, (err, lines) ->
-    packageDeprecations = {}
+    deprecationsByPackage = {}
     for line in lines
       [packageNameAndVersion, deprecationText, totalEvents, uniqueEvents] = line
       continue unless packageNameAndVersion and not isNaN(parseInt(totalEvents))
@@ -24,9 +24,26 @@ getDeprecationsByPackage = (deprecations, packageCache, callback) ->
 
       deprecationText = sanitizeDeprecationText(deprecationText)
 
-      packageDeprecations[packageName] ?= {}
-      packageDeprecations[packageName][deprecationText] ?= 0
-      packageDeprecations[packageName][deprecationText]++
-    callback(packageDeprecations)
+      deprecationsByPackage[packageName] ?= {}
+      deprecationsByPackage[packageName][deprecationText] ?= 0
+      deprecationsByPackage[packageName][deprecationText]++
+    callback(deprecationsByPackage)
 
-module.exports = {parseNumber, sanitizeDeprecationText, getDeprecationsByPackage}
+getDeprecationsByPackageVersion = (deprecations, packageCache, callback) ->
+  csv.parse deprecations, (err, lines) ->
+    deprecationsByPackage = {}
+    for line in lines
+      [packageNameAndVersion, deprecationText, totalEvents, uniqueEvents] = line
+      continue unless packageNameAndVersion and not isNaN(parseInt(totalEvents))
+
+      [packageName, version] = packageNameAndVersion.split('@')
+      continue unless packageCache[packageName].repository
+
+      deprecationText = sanitizeDeprecationText(deprecationText)
+
+      deprecationsByPackage[packageNameAndVersion] ?= {}
+      deprecationsByPackage[packageNameAndVersion][deprecationText] ?= 0
+      deprecationsByPackage[packageNameAndVersion][deprecationText]++
+    callback(deprecationsByPackage)
+
+module.exports = {parseNumber, sanitizeDeprecationText, getDeprecationsByPackage, getDeprecationsByPackageVersion}

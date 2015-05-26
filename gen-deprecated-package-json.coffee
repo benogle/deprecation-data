@@ -2,7 +2,8 @@ fs = require 'fs'
 path = require 'path'
 csv = require 'csv'
 semver = require 'semver'
-{sanitizeDeprecationText} = require './utils'
+MinorDeprecations = require './minor-deprecations'
+{sanitizeDeprecationText, getDeprecationsByPackageVersion} = require './utils'
 
 packagesWithAlternatives =
   'atom-lint':
@@ -29,7 +30,16 @@ generateSemverPattern = (versions) ->
   largestVersion = "<=#{largestVersion}" if largestVersion?
   largestVersion
 
-generateDeprecatedPackages = (packageCache, callback) ->
+versionsWithCriticalDeprecations = (deprecationsByPackage, packageName, versions) ->
+  deprecatedVersions = []
+  for version in versions
+    for deprecationText, __ of deprecationsByPackage["#{packageName}@#{version}"]
+      if MinorDeprecations.indexOf(deprecationText) is -1
+        deprecatedVersions.push(version)
+        break
+  deprecatedVersions
+
+generateDeprecatedPackages = (deprecationsByPackage, packageCache, callback) ->
   deprecatedPackages = {}
   packageNames = (key for key, __ of packageCache)
   packageNames.sort (a, b) ->
@@ -51,6 +61,7 @@ generateDeprecatedPackages = (packageCache, callback) ->
     else
       cachedPackage = packageCache[packageName]
       versions = (key for key, __ of cachedPackage.versions)
+      versions = versionsWithCriticalDeprecations(deprecationsByPackage, packageName, versions)
       versionPattern = generateSemverPattern(versions)
       if versionPattern?
         deprecatedPackage = deprecatedPackages[packageName] = {}
@@ -59,12 +70,15 @@ generateDeprecatedPackages = (packageCache, callback) ->
 
   deprecatedPackages
 
-writeDeprecatedPackages = (packageCache) ->
-  deprecatedPackages = generateDeprecatedPackages(packageCache)
-  fs.writeFileSync('output/deprecated-packages.json', JSON.stringify(deprecatedPackages, null, '  '))
+writeDeprecatedPackages = (deprecations, packageCache) ->
+  getDeprecationsByPackageVersion deprecations, packageCache, (deprecationsByPackage) ->
+    deprecatedPackages = generateDeprecatedPackages(deprecationsByPackage, packageCache)
+    fs.writeFileSync('output/deprecated-packages.json', JSON.stringify(deprecatedPackages, null, '  '))
 
 if fs.existsSync('output/package-cache.json')
-  packageCache = fs.readFileSync('output/package-cache.json')
-  writeDeprecatedPackages(JSON.parse(packageCache))
+  inputFileName = process.argv[2] ? 'deprecations.csv'
+  deprecations = fs.readFileSync(inputFileName)
+  packageCache = JSON.parse(fs.readFileSync('output/package-cache.json'))
+  writeDeprecatedPackages(deprecations, packageCache)
 else
   console.log 'Generate the package cache first'
