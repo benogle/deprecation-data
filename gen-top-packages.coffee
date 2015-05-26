@@ -10,7 +10,7 @@ parseNumber = (numberString) ->
   numberString = numberString.replace(/,/g, '')
   parseInt(numberString)
 
-buildTable = (packageDeprecations, packageCache, options={}) ->
+buildPackageList = (packageDeprecations, packageCache, options={}) ->
   whitelist = [
     'jshint', 'autocomplete-plus'
   ]
@@ -26,13 +26,8 @@ buildTable = (packageDeprecations, packageCache, options={}) ->
         0
     else
       b.uniqueEvents - a.uniqueEvents
-    # b.uniqueEvents - a.uniqueEvents
 
-  lines = [
-    '| n | Package | Owner | Total Affected | Affected On Latest |'
-    '| --- |------ | ----- | -------------- | ------------------ |'
-  ]
-  index = 0
+  packageList = []
   owners = []
   for pack in packages
     continue if pack.name in whitelist
@@ -60,22 +55,39 @@ buildTable = (packageDeprecations, packageCache, options={}) ->
           break
       continue unless hasCriticalDeprecations
 
-    name = pack.name
-    name = "[#{pack.name}](#{pack.repository})" if pack.repository?
     owner = if pack.owner? then "@#{pack.owner}" else 'unknown'
     owners.push(owner) if owner and owner not in owners
 
-    lines.push("| #{index + 1} | #{name} | #{owner} | #{pack.uniqueEvents} | #{pack.latestVersion ? 'unknown'} : #{pack.versions[pack.latestVersion]?.uniqueEvents} |")
+    packageList.push
+      name: pack.name
+      owner: owner
+      repository: pack.repository
+      uniqueEvents: pack.uniqueEvents
+      latestVersion: pack.latestVersion ? 'unknown'
+      latestVersionUniqueEvents: pack.versions[pack.latestVersion]?.uniqueEvents
+  {packages: packageList, owners}
+
+buildTable = ({packages, owners}) ->
+  lines = [
+    '| n | Package | Owner | Total Affected | Affected On Latest |'
+    '| --- |------ | ----- | -------------- | ------------------ |'
+  ]
+  index = 0
+  for pack in packages
+    name = pack.name
+    name = "[#{pack.name}](#{pack.repository})" if pack.repository?
+    lines.push("| #{index + 1} | #{name} | #{pack.owner} | #{pack.uniqueEvents} | #{pack.latestVersion} : #{pack.latestVersionUniqueEvents} |")
     index += 1
   lines = lines.join('\n')
   lines += """
 
-  #{owners.join(', ')}
+    #{owners.join(', ')}
   """
 
 writeTable = (deprecations, packageCache) ->
   getDeprecationsByPackage deprecations, packageCache, (packageDeprecations) ->
 
+    packageList = buildPackageList(packageDeprecations, packageCache, {latestAffected: true, hasRepo: true, criticalDeprecationsOnly: true})
     fs.writeFileSync 'output/top-packages.md', """
       ## Packages with critical deprecations
 
@@ -83,9 +95,10 @@ writeTable = (deprecations, packageCache) ->
 
       _Generated: #{new Date()}_
 
-      #{buildTable(packageDeprecations, packageCache, {latestAffected: true, hasRepo: true, criticalDeprecationsOnly: true})}
+      #{buildTable(packageList)}
     """
 
+    packageList = buildPackageList(packageDeprecations, packageCache, {latestAffected: true, hasRepo: true, criticalDeprecationsOnly: false})
     fs.writeFileSync 'output/top-packages-all.md', """
       ## All packages with deprecations
 
@@ -93,7 +106,7 @@ writeTable = (deprecations, packageCache) ->
 
       _Generated: #{new Date()}_
 
-      #{buildTable(packageDeprecations, packageCache, {latestAffected: true, hasRepo: true, criticalDeprecationsOnly: false})}
+      #{buildTable(packageList)}
     """
 
 if fs.existsSync('output/package-cache.json')
