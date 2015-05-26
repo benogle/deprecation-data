@@ -8,6 +8,12 @@ packagesWithAlternatives =
   'atom-lint':
     alternative: 'linter'
     message: "`atom-lint` has been replaced by `linter`"
+  'policeman':
+    alternative: 'linter'
+    message: "`policeman` has been replaced by `linter`"
+  'policeman-rubocop':
+    alternative: 'linter-rubocop'
+    message: "`policeman-rubocop` has been replaced by `linter-rubocop`"
   'language-typescript':
     alternative: 'atom-typescript'
     message: "`language-typescript` has been replaced by `atom-typescript`"

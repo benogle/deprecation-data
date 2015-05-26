@@ -2,8 +2,10 @@ fs = require 'fs'
 path = require 'path'
 Promise = require 'bluebird'
 csv = require 'csv'
+MinorDeprecations = require './minor-deprecations'
+{sanitizeDeprecationText} = require './utils'
 
-parseDeprecations = (deprecations, packageCache, callback) ->
+parseDeprecations = (deprecations, packageCache, options={}, callback) ->
   deprecationList = []
   csv.parse deprecations, (err, lines) ->
     for line in lines
@@ -12,6 +14,9 @@ parseDeprecations = (deprecations, packageCache, callback) ->
 
       [packageName, version] = packageNameAndVersion.split('@')
       continue if packageCache[packageName].latestVersion isnt version
+
+      if options.excludeMinorDeprecations
+        continue if MinorDeprecations.indexOf(sanitizeDeprecationText(deprecationText)) > -1
 
       deprecationList.push({packageName, version, deprecationText})
 
@@ -26,9 +31,8 @@ parseDeprecations = (deprecations, packageCache, callback) ->
         0
     callback(deprecationList)
 
-writeDeprecationsByPackage = (fileName, packageCache) ->
-  deprecations = fs.readFileSync(fileName)
-  parseDeprecations deprecations, packageCache, (deprecationList) ->
+writeDeprecationsByPackage = (outputFileName, deprecations, packageCache, options) ->
+  parseDeprecations deprecations, packageCache, options, (deprecationList) ->
     lines = [
       '| Package | Version | Deprecation Text |'
       '| ------- | ------- | ---------------- |'
@@ -39,13 +43,15 @@ writeDeprecationsByPackage = (fileName, packageCache) ->
       packageLink = "[#{packageName}](#{packageCache[packageName].repository})" if packageCache[packageName].repository
       lines.push("| #{packageLink} | #{version} | #{deprecationText} |")
 
-    fs.writeFileSync 'output/deprecations-by-package.md', """
+    fs.writeFileSync outputFileName, """
       #{lines.join('\n')}
     """
 
 if fs.existsSync('output/package-cache.json')
-  packageCache = fs.readFileSync('output/package-cache.json')
-  fileName = process.argv[2] ? 'deprecations.csv'
-  writeDeprecationsByPackage(fileName, JSON.parse(packageCache))
+  packageCache = JSON.parse(fs.readFileSync('output/package-cache.json'))
+  inputFileName = process.argv[2] ? 'deprecations.csv'
+  deprecations = fs.readFileSync(inputFileName)
+  writeDeprecationsByPackage('output/deprecations-by-package.md', deprecations, packageCache, {excludeMinorDeprecations: true})
+  writeDeprecationsByPackage('output/deprecations-by-package-all.md', deprecations, packageCache, {excludeMinorDeprecations: false})
 else
   console.log 'Generate the package cache first'
