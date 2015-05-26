@@ -60,13 +60,15 @@ generateDeprecatedPackages = (deprecationsByPackage, packageCache, callback) ->
       deprecatedPackage.alternative = packWithAlt.alternative
     else
       cachedPackage = packageCache[packageName]
+      latestHasDeprecations = !!cachedPackage.versions[cachedPackage.latestVersion]
       versions = (key for key, __ of cachedPackage.versions)
       versions = versionsWithCriticalDeprecations(deprecationsByPackage, packageName, versions)
       versionPattern = generateSemverPattern(versions)
       if versionPattern?
         deprecatedPackage = deprecatedPackages[packageName] = {}
-        deprecatedPackage.hasDeprecations = true
         deprecatedPackage.version = versionPattern
+        deprecatedPackage.hasDeprecations = true
+        deprecatedPackage.latestHasDeprecations = latestHasDeprecations
 
   deprecatedPackages
 
