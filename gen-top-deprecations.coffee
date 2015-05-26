@@ -42,9 +42,8 @@ parseDeprecations = (deprecations, packageCache, {excludeMinorDeprecations}, cal
 
     callback(deprecationList)
 
-writeTopDeprecations = (fileName, packageCache) ->
-  deprecations = fs.readFileSync(fileName)
-  options = {excludeMinorDeprecations: true}
+writeTopDeprecations = (inputFileName, outputFileName, packageCache, options) ->
+  deprecations = fs.readFileSync(inputFileName)
   parseDeprecations deprecations, packageCache, options, (deprecationList) ->
     lines = [
       '| n | Deprecation Text | Packages | Users Affected |'
@@ -54,13 +53,14 @@ writeTopDeprecations = (fileName, packageCache) ->
     for {text, totalEvents, packages}, i in deprecationList
       lines.push("| #{i + 1} | #{text} | #{packages.length ? packages} | #{totalEvents} |")
 
-    fs.writeFileSync 'output/top-deprecations.md', """
+    fs.writeFileSync outputFileName, """
       #{lines.join('\n')}
     """
 
 if fs.existsSync('output/package-cache.json')
   packageCache = fs.readFileSync('output/package-cache.json')
-  fileName = process.argv[2] ? 'deprecations.csv'
-  writeTopDeprecations(fileName, JSON.parse(packageCache))
+  inputFileName = process.argv[2] ? 'deprecations.csv'
+  writeTopDeprecations(inputFileName, 'output/top-deprecations.md', JSON.parse(packageCache), {excludeMinorDeprecations: true})
+  writeTopDeprecations(inputFileName, 'output/top-deprecations-all.md', JSON.parse(packageCache), {excludeMinorDeprecations: false})
 else
   console.log 'Generate the package cache first'

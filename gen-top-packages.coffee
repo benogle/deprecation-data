@@ -8,12 +8,12 @@ parseNumber = (numberString) ->
   numberString = numberString.replace(/,/g, '')
   parseInt(numberString)
 
-buildTable = (packages, options={}) ->
+buildTable = (packageCache, options={}) ->
   whitelist = [
     'jshint', 'autocomplete-plus'
   ]
 
-  packages = values(packages)
+  packages = values(packageCache)
   packages.sort (a, b) ->
     if options.latestAffected
       buniq = b.versions[b.latestVersion]?.uniqueEvents ? 0
@@ -62,7 +62,7 @@ buildTable = (packages, options={}) ->
   #{owners.join(', ')}
   """
 
-writeTable = (packages) ->
+writeTable = (packageCache) ->
   fs.writeFileSync 'output/top-packages.md', """
     ## Packages With deprecations
 
@@ -70,7 +70,7 @@ writeTable = (packages) ->
 
     _Generated: #{new Date()}_
 
-    #{buildTable(packages, {latestAffected: true, hasRepo: true})}
+    #{buildTable(packageCache, {latestAffected: true, hasRepo: true})}
   """
 
   fs.writeFileSync 'output/no-repo-top-packages.md', """
@@ -80,11 +80,11 @@ writeTable = (packages) ->
 
     _Generated: #{new Date()}_
 
-    #{buildTable(packages, {hasRepo: false})}
+    #{buildTable(packageCache, {hasRepo: false})}
   """
 
 if fs.existsSync('output/package-cache.json')
-  data = fs.readFileSync('output/package-cache.json')
-  writeTable(JSON.parse(data))
+  packageCache = fs.readFileSync('output/package-cache.json')
+  writeTable(JSON.parse(packageCache))
 else
   console.log 'Generate the package cache first'
