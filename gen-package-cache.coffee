@@ -55,6 +55,7 @@ getData = (fileName) ->
 
   deprecations = fs.readFileSync(fileName).toString()
   csv.parse deprecations, (err, lines) ->
+    console.error err if err
     for line in lines
       [packageNameAndVersion, __, totalEvents, uniqueEvents] = line
       continue unless packageNameAndVersion and not isNaN(parseNumber(totalEvents))

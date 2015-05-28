@@ -12,6 +12,7 @@ merge = (deprecations) ->
         continue unless packageNameAndVersion and not isNaN(parseNumber(totalEvents))
 
         key = packageNameAndVersion + text
+        text = text.replace(/"/g, '""')
         mergedDeprecations[key] ?= {packageNameAndVersion, text, totalEvents: 0, uniqueEvents: 0}
         mergedDeprecations[key].totalEvents += parseNumber(totalEvents)
         mergedDeprecations[key].uniqueEvents += parseNumber(uniqueEvents)
