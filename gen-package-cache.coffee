@@ -63,7 +63,9 @@ getData = (fileName) ->
       uniqueEvents = parseNumber(uniqueEvents)
       packages[packageName] ?= {name: packageName}
       packages[packageName].versions ?= {}
-      packages[packageName].versions[version] = {version, totalEvents, uniqueEvents}
+      packages[packageName].versions[version] ?= {version, totalEvents: 0, uniqueEvents: 0}
+      packages[packageName].versions[version].totalEvents += totalEvents
+      packages[packageName].versions[version].uniqueEvents += uniqueEvents
       packages[packageName].uniqueEvents ?= 0
       packages[packageName].uniqueEvents += uniqueEvents
       unless packages[packageName].owner? or packages[packageName].repository?

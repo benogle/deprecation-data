@@ -1,5 +1,9 @@
 csv = require 'csv'
 
+PackageWhitelist = [
+  'jshint', 'autocomplete-plus', 'atom-color-highlight', 'command-palette'
+]
+
 parseNumber = (numberString) ->
   numberString = numberString.replace(/,/g, '')
   parseInt(numberString)
@@ -46,4 +50,4 @@ getDeprecationsByPackageVersion = (deprecations, packageCache, callback) ->
       deprecationsByPackage[packageNameAndVersion][deprecationText]++
     callback(deprecationsByPackage)
 
-module.exports = {parseNumber, sanitizeDeprecationText, getDeprecationsByPackage, getDeprecationsByPackageVersion}
+module.exports = {parseNumber, sanitizeDeprecationText, getDeprecationsByPackage, getDeprecationsByPackageVersion, PackageWhitelist}

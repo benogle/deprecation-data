@@ -3,29 +3,51 @@ path = require 'path'
 csv = require 'csv'
 semver = require 'semver'
 MinorDeprecations = require './minor-deprecations'
-{sanitizeDeprecationText, getDeprecationsByPackageVersion} = require './utils'
+{PackageWhitelist, sanitizeDeprecationText, getDeprecationsByPackageVersion} = require './utils'
 
 packagesWithAlternatives =
   'atom-lint':
     alternative: 'linter'
-    message: "`atom-lint` has been replaced by `linter`"
   'policeman':
     alternative: 'linter'
-    message: "`policeman` has been replaced by `linter`"
+  'atom-eslint':
+    alternative: 'linter'
+  'pep8':
+    alternative: 'linter'
+  'flake8':
+    alternative: 'linter'
+  'coffeescript-preview':
+    alternative: 'preview'
+  'python':
+    alternative: 'script'
+  'ternjs':
+    alternative: 'atom-ternjs'
   'policeman-rubocop':
     alternative: 'linter-rubocop'
-    message: "`policeman-rubocop` has been replaced by `linter-rubocop`"
   'language-typescript':
     alternative: 'atom-typescript'
-    message: "`language-typescript` has been replaced by `atom-typescript`"
   'atom-angularjs':
     alternative: 'angularjs'
-    message: "`nbsp-detect` has been replaced by functionality in core"
+  'autocomplete-jedi':
+    alternative: 'autocomplete-plus-python-jedi'
   'autocomplete-plus-async':
+    alternative: 'core'
     message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
   'nbsp-detect':
-    message: "`nbsp-detect` has been replaced by functionality in core"
-
+    alternative: 'core'
+  'selection-count':
+    alternative: 'core'
+  'remember-session':
+    alternative: 'core'
+  'open-last-project':
+    alternative: 'core'
+  'resize-panes':
+    alternative: 'core'
+  'cut-line':
+    alternative: 'core'
+  'wrap-lines':
+    alternative: 'core'
+    message: '`wrap-lines` has been replaced by a feature in core. Open the command palette and search for `autoflow`.'
 
 generateSemverPattern = (versions) ->
   largestVersion = null
@@ -58,6 +80,7 @@ generateDeprecatedPackages = (deprecationsByPackage, packageCache, callback) ->
       0
 
   for packageName in packageNames
+    continue if packageName in PackageWhitelist
     if packWithAlt = packagesWithAlternatives[packageName]
       deprecatedPackage = deprecatedPackages[packageName] = {}
       deprecatedPackage.hasAlternative = true

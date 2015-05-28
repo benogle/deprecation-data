@@ -1,7 +1,7 @@
 fs = require 'fs'
 path = require 'path'
 MinorDeprecations = require './minor-deprecations'
-{getDeprecationsByPackage} = require './utils'
+{getDeprecationsByPackage, PackageWhitelist} = require './utils'
 
 values = (obj) ->
   (val for __, val of obj)
@@ -11,10 +11,6 @@ parseNumber = (numberString) ->
   parseInt(numberString)
 
 buildPackageList = (deprecationsByPackage, packageCache, options={}) ->
-  whitelist = [
-    'jshint', 'autocomplete-plus'
-  ]
-
   packages = values(packageCache)
   packages.sort (a, b) ->
     if options.latestAffected
@@ -30,7 +26,7 @@ buildPackageList = (deprecationsByPackage, packageCache, options={}) ->
   packageList = []
   owners = []
   for pack in packages
-    continue if pack.name in whitelist
+    continue if pack.name in PackageWhitelist
     versions = values(pack.versions)
     versions.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
 
@@ -133,7 +129,7 @@ writeTable = (deprecations, packageCache) ->
     fs.writeFileSync 'output/top-packages.md', """
       ## Packages with critical deprecations
 
-      The latest version of each of these pacakges is affected.
+      The latest version of each of these packages is affected.
 
       _Generated: #{new Date()}_
 
@@ -143,7 +139,7 @@ writeTable = (deprecations, packageCache) ->
     fs.writeFileSync 'output/top-packages-issue-links.md', """
       ## Packages on which to create issues
 
-      The latest version of each of these pacakges is affected.
+      The latest version of each of these packages is affected.
 
       _Generated: #{new Date()}_
 
@@ -154,7 +150,7 @@ writeTable = (deprecations, packageCache) ->
     fs.writeFileSync 'output/top-packages-all.md', """
       ## All packages with deprecations
 
-      The latest version of each of these pacakges is affected.
+      The latest version of each of these packages is affected.
 
       _Generated: #{new Date()}_
 
