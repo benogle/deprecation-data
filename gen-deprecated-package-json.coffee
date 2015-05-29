@@ -20,6 +20,8 @@ packagesWithAlternatives =
     alternative: 'preview'
   'python':
     alternative: 'script'
+  'atom-go-format':
+    alternative: 'go-plus'
   'ternjs':
     alternative: 'atom-ternjs'
   'policeman-rubocop':
