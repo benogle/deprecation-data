@@ -3,53 +3,8 @@ path = require 'path'
 csv = require 'csv'
 semver = require 'semver'
 MinorDeprecations = require './minor-deprecations'
+PackagesWithAlternatives = require './packages-with-alternatives'
 {PackageWhitelist, sanitizeDeprecationText, getDeprecationsByPackageVersion} = require './utils'
-
-packagesWithAlternatives =
-  'atom-lint':
-    alternative: 'linter'
-  'policeman':
-    alternative: 'linter'
-  'atom-eslint':
-    alternative: 'linter'
-  'pep8':
-    alternative: 'linter'
-  'flake8':
-    alternative: 'linter'
-  'coffeescript-preview':
-    alternative: 'preview'
-  'python':
-    alternative: 'script'
-  'atom-go-format':
-    alternative: 'go-plus'
-  'ternjs':
-    alternative: 'atom-ternjs'
-  'policeman-rubocop':
-    alternative: 'linter-rubocop'
-  'language-typescript':
-    alternative: 'atom-typescript'
-  'atom-angularjs':
-    alternative: 'angularjs'
-  'autocomplete-jedi':
-    alternative: 'autocomplete-plus-python-jedi'
-  'autocomplete-plus-async':
-    alternative: 'core'
-    message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
-  'nbsp-detect':
-    alternative: 'core'
-  'selection-count':
-    alternative: 'core'
-  'remember-session':
-    alternative: 'core'
-  'open-last-project':
-    alternative: 'core'
-  'resize-panes':
-    alternative: 'core'
-  'cut-line':
-    alternative: 'core'
-  'wrap-lines':
-    alternative: 'core'
-    message: '`wrap-lines` has been replaced by a feature in core. Open the command palette and search for `autoflow`.'
 
 generateSemverPattern = (versions) ->
   largestVersion = null
@@ -83,7 +38,7 @@ generateDeprecatedPackages = (deprecationsByPackage, packageCache, callback) ->
 
   for packageName in packageNames
     continue if packageName in PackageWhitelist
-    if packWithAlt = packagesWithAlternatives[packageName]
+    if packWithAlt = PackagesWithAlternatives[packageName]
       deprecatedPackage = deprecatedPackages[packageName] = {}
       deprecatedPackage.hasAlternative = true
       deprecatedPackage.message = packWithAlt.message

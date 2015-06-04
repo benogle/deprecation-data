@@ -25,4 +25,4 @@ merge = (deprecations) ->
 
 deprecations = fs.readFileSync(process.argv[2] ? 'deprecations-raw.csv')
 merge(deprecations).then (mergedData) ->
-  fs.writeFileSync 'merged-deprecations.csv', mergedData
+  fs.writeFileSync 'deprecations.csv', mergedData

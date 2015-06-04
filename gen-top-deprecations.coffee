@@ -3,6 +3,7 @@ path = require 'path'
 Promise = require 'bluebird'
 csv = require 'csv'
 MinorDeprecations = require './minor-deprecations'
+PackagesWithAlternatives = require './packages-with-alternatives'
 {parseNumber, sanitizeDeprecationText} = require './utils'
 
 parseDeprecations = (deprecations, packageCache, {excludeMinorDeprecations}, callback) ->
@@ -18,6 +19,7 @@ parseDeprecations = (deprecations, packageCache, {excludeMinorDeprecations}, cal
       [packageName, version] = packageNameAndVersion.split('@')
       continue if packageCache[packageName].latestVersion isnt version
       continue unless packageCache[packageName].repository
+      continue if PackagesWithAlternatives[packageName]?
 
       deprecationText = sanitizeDeprecationText(deprecationText)
       continue if excludeMinorDeprecations and MinorDeprecations.indexOf(deprecationText) > -1

@@ -1,6 +1,7 @@
 fs = require 'fs'
 path = require 'path'
 MinorDeprecations = require './minor-deprecations'
+PackagesWithAlternatives = require './packages-with-alternatives'
 {getDeprecationsByPackage, PackageWhitelist} = require './utils'
 
 values = (obj) ->
@@ -27,6 +28,7 @@ buildPackageList = (deprecationsByPackage, packageCache, options={}) ->
   owners = []
   for pack in packages
     continue if pack.name in PackageWhitelist
+    continue if PackagesWithAlternatives[pack.name]?
     versions = values(pack.versions)
     versions.sort (a, b) -> b.uniqueEvents - a.uniqueEvents
 
