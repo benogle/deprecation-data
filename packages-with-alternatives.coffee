@@ -29,6 +29,8 @@ module.exports =
     alternative: 'angularjs'
   'autocomplete-jedi':
     alternative: 'autocomplete-plus-python-jedi'
+  'highlight-css-color':
+    alternative: 'pigments'
   'autocomplete-plus-async':
     alternative: 'core'
     message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
