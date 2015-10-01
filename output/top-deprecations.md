@@ -1,13 +1,13 @@
 | n | Deprecation Text | Packages | Users Affected |
 | ---- | ------------- | -------- | -------------- |
-| 1 | Total unique packages affected | 172 |  |
-| 2 | atom.workspaceView is no longer available. In most cases you will not need the view. See the Workspace docs for alternatives: https://atom.io/docs/api/latest/Workspace. If you do need the view, please use `atom.views.getView(atom.workspace)`, which returns an HTMLElement. | 130 | 44675 |
-| 3 | Requiring `View` from `atom` is no longer supported. Please require `atom-space-pen-views` instead: `{View} = require 'atom-space-pen-views'` Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. | 47 | 10757 |
-| 4 | Requiring `$` from `atom` is no longer supported. If you are using `space-pen`, please require `$` from `atom-space-pen-views`. Otherwise require `jquery` instead: `{$} = require 'atom-space-pen-views'` or `$ = require 'jquery'` Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. Or add `"jquery": "^2"` to your package dependencies. | 34 | 12281 |
+| 1 | Total unique packages affected | 171 |  |
+| 2 | atom.workspaceView is no longer available. In most cases you will not need the view. See the Workspace docs for alternatives: https://atom.io/docs/api/latest/Workspace. If you do need the view, please use `atom.views.getView(atom.workspace)`, which returns an HTMLElement. | 129 | 44584 |
+| 3 | Requiring `View` from `atom` is no longer supported. Please require `atom-space-pen-views` instead: `{View} = require 'atom-space-pen-views'` Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. | 46 | 10651 |
+| 4 | Requiring `$` from `atom` is no longer supported. If you are using `space-pen`, please require `$` from `atom-space-pen-views`. Otherwise require `jquery` instead: `{$} = require 'atom-space-pen-views'` or `$ = require 'jquery'` Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. Or add `"jquery": "^2"` to your package dependencies. | 33 | 12175 |
 | 5 | Call ::getActiveTextEditor instead | 32 | 1974 |
 | 6 | Use ::getPaths instead | 20 | 2159 |
 | 7 | Use ::getActivePaneItem() instead of the ::activePaneItem property | 18 | 1369 |
-| 8 | Use Workspace::onDidAddTextEditor instead | 16 | 5358 |
+| 8 | Use Workspace::onDidAddTextEditor instead | 15 | 5282 |
 | 9 | Requiring `EditorView` from `atom` is no longer supported. Please require `TextEditorView` from `atom-space-pen-view` instead: `{TextEditorView} = require 'atom-space-pen-views'` Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. | 13 | 2664 |
 | 10 | Requiring `ScrollView` from `atom` is no longer supported. Please require `ScrollView` from `atom-space-pen-view` instead: `{ScrollView} = require 'atom-space-pen-views'` Note that the API has changed slightly! Please read the docs at https://github.com/atom/atom-space-pen-views Add `"atom-space-pen-views": "^2.0.3"` to your package dependencies. | 12 | 4153 |
 | 11 | Call Workspace::addOpener instead | 12 | 4154 |
@@ -62,35 +62,34 @@
 | 60 | Use WorkspaceView::getPaneViews instead | 2 | 533 |
 | 61 | Open-ended transactions are deprecated. Use checkpoints instead. | 2 | 106 |
 | 62 | Use TextEditor::selectLinesContainingCursors instead | 2 | 121 |
-| 63 | Use `::activateItemForURI` instead. | 2 | 91 |
-| 64 | Use ::paneForURI instead. | 2 | 106 |
+| 63 | Use ::paneForURI instead. | 2 | 106 |
+| 64 | Use `::activateItemForURI` instead. | 2 | 91 |
 | 65 | Use ::getOriginURL instead. | 1 | 30 |
-| 66 | Use TextEditor::onDidStopChanging instead | 1 | 91 |
-| 67 | Use Workspace::onDidChangeActivePaneItem instead | 1 | 152 |
-| 68 | Use ThemeManager::onDidChangeActiveThemes instead | 1 | 76 |
-| 69 | Call .dispose() on the Disposable returned from ::addOpener instead | 1 | 107 |
-| 70 | Use Project::onDidChangePaths instead | 1 | 152 |
-| 71 | Use GitRepository::onDidChangeStatuses instead | 1 | 137 |
-| 72 | Use TextEditor::lineTextForBufferRow(bufferRow) instead | 1 | 76 |
-| 73 | TextBuffer::on is deprecated. Use event subscription methods instead. | 1 | 61 |
-| 74 | Use GitRepository::onDidChangeStatus instead | 1 | 137 |
-| 75 | Use Directory::onDidChange instead | 1 | 137 |
-| 76 | Use WorkspaceView::getActivePaneView instead | 1 | 46 |
-| 77 | Subscribe to TextEditor events instead. | 1 | 137 |
-| 78 | Use TextEditorElement::pixelPositionForBufferPosition instead. You can get the editor via editorView.getModel() | 1 | 30 |
-| 79 | Use TextBuffer::onDidStopChanging instead. If you need the modified status, call TextBuffer::isModified yourself in your callback. | 1 | 183 |
-| 80 | Use TextEditor::setPlaceholderText instead. eg. editorView.getModel().setPlaceholderText(text) | 1 | 122 |
-| 81 | Use ::get(keyPath) instead | 1 | 198 |
-| 82 | Use ::scopeDescriptorForBufferPosition instead. The return value has changed! It now returns a `ScopeDescriptor` | 1 | 639 |
-| 83 | Use Pane::onDidRemoveItem instead | 1 | 2024 |
-| 84 | Use editor.getLastCursor().getScopeDescriptor() instead | 1 | 15 |
-| 85 | Use Pane::onDidAddItem instead | 1 | 2024 |
-| 86 | Use TextEditorElement::getFirstVisibleScreenRow instead. | 1 | 15 |
-| 87 | Use Pane::onDidDestroy instead | 1 | 2237 |
-| 88 | Use TextEditor::onDidChangePath instead | 1 | 2877 |
-| 89 | Call GrammarRegistry::onDidAddGrammar instead | 1 | 2968 |
-| 90 | Please require `GitRepository` instead of `Git`: `{GitRepository} = require 'atom'` | 1 | 15 |
-| 91 | Use TextBuffer::onDidConflict instead | 1 | 15 |
-| 92 | Use TextBuffer::onDidDestroy instead | 1 | 15 |
-| 93 | Use TextBuffer::onDidReload instead. | 1 | 15 |
-| 94 | Use TextEditor::moveToTop() instead | 1 | 15 |
+| 66 | Use TextEditor::setPlaceholderText instead. eg. editorView.getModel().setPlaceholderText(text) | 1 | 122 |
+| 67 | Use ThemeManager::onDidChangeActiveThemes instead | 1 | 76 |
+| 68 | Call .dispose() on the Disposable returned from ::addOpener instead | 1 | 107 |
+| 69 | Use Project::onDidChangePaths instead | 1 | 152 |
+| 70 | Use GitRepository::onDidChangeStatuses instead | 1 | 137 |
+| 71 | Use TextEditor::lineTextForBufferRow(bufferRow) instead | 1 | 76 |
+| 72 | TextBuffer::on is deprecated. Use event subscription methods instead. | 1 | 61 |
+| 73 | Use GitRepository::onDidChangeStatus instead | 1 | 137 |
+| 74 | Use Directory::onDidChange instead | 1 | 137 |
+| 75 | Use WorkspaceView::getActivePaneView instead | 1 | 46 |
+| 76 | Subscribe to TextEditor events instead. | 1 | 137 |
+| 77 | Use TextEditorElement::pixelPositionForBufferPosition instead. You can get the editor via editorView.getModel() | 1 | 30 |
+| 78 | Use TextBuffer::onDidStopChanging instead. If you need the modified status, call TextBuffer::isModified yourself in your callback. | 1 | 183 |
+| 79 | Use Workspace::onDidChangeActivePaneItem instead | 1 | 152 |
+| 80 | Use ::get(keyPath) instead | 1 | 198 |
+| 81 | Use ::scopeDescriptorForBufferPosition instead. The return value has changed! It now returns a `ScopeDescriptor` | 1 | 639 |
+| 82 | Use Pane::onDidRemoveItem instead | 1 | 2024 |
+| 83 | Use editor.getLastCursor().getScopeDescriptor() instead | 1 | 15 |
+| 84 | Use Pane::onDidAddItem instead | 1 | 2024 |
+| 85 | Use TextEditorElement::getFirstVisibleScreenRow instead. | 1 | 15 |
+| 86 | Use Pane::onDidDestroy instead | 1 | 2237 |
+| 87 | Use TextEditor::onDidChangePath instead | 1 | 2877 |
+| 88 | Call GrammarRegistry::onDidAddGrammar instead | 1 | 2968 |
+| 89 | Please require `GitRepository` instead of `Git`: `{GitRepository} = require 'atom'` | 1 | 15 |
+| 90 | Use TextBuffer::onDidConflict instead | 1 | 15 |
+| 91 | Use TextBuffer::onDidDestroy instead | 1 | 15 |
+| 92 | Use TextBuffer::onDidReload instead. | 1 | 15 |
+| 93 | Use TextEditor::moveToTop() instead | 1 | 15 |
