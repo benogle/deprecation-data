@@ -28,7 +28,9 @@ module.exports =
   'atom-angularjs':
     alternative: 'angularjs'
   'autocomplete-jedi':
-    alternative: 'autocomplete-plus-python-jedi'
+    alternative: 'autocomplete-python'
+  'autocomplete-plus-python-jedi':
+    alternative: 'autocomplete-python'
   'highlight-css-color':
     alternative: 'pigments'
   'autocomplete-plus-async':
