@@ -2,7 +2,7 @@ csv = require 'csv'
 
 PackageWhitelist = [
   'jshint', 'autocomplete-plus', 'atom-color-highlight', 'command-palette'
-  'policeman', 'policeman-rubocop', 'remember-session', 'tree-view'
+  'policeman', 'policeman-rubocop', 'tree-view'
 ]
 
 parseNumber = (numberString) ->
