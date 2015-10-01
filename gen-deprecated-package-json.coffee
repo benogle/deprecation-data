@@ -26,6 +26,10 @@ versionsWithCriticalDeprecations = (deprecationsByPackage, packageName, versions
 generateDeprecatedPackages = (deprecationsByPackage, packageCache, callback) ->
   deprecatedPackages = {}
   packageNames = (key for key, __ of packageCache)
+
+  for packageName in Object.keys(PackagesWithAlternatives)
+    packageNames.push(packageName) if packageNames.indexOf(packageName) < 0
+
   packageNames.sort (a, b) ->
     aPackageName = a.toLowerCase()
     bPackageName = b.toLowerCase()
