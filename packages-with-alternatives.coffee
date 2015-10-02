@@ -33,6 +33,8 @@ module.exports =
     alternative: 'autocomplete-python'
   'highlight-css-color':
     alternative: 'pigments'
+  'max-tabs':
+    alternative: 'tidy-tabs'
   'autocomplete-plus-async':
     alternative: 'core'
     message: "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core"
